@@ -1,0 +1,28 @@
+{
+  "any_damage_threshold": 0.7356525659561157,
+  "target_recall": 0.97,
+  "measured_recall": 1.0,
+  "negative_pixel_fpr": 0.007654147399882455,
+  "positive_pixels": 2056643,
+  "negative_pixels": 32504992,
+  "calibration_basis": "damage_case",
+  "positive_cases": 65,
+  "minimum_damage_coverage": 0.05,
+  "exterior_floor": 0.5,
+  "tile_size": 768,
+  "overlap": 192,
+  "horizontal_flip_tta": true,
+  "mixed_precision": true,
+  "minimum_component_pixels": 1200,
+  "segmentation_minimum_component_pixels": null,
+  "segmentation_component_filter_basis": "",
+  "type_probability_multipliers": null,
+  "type_probability_multiplier_basis": "",
+  "triage_scales": [
+    1.0,
+    1.5
+  ],
+  "segmentation_scales": null,
+  "segmentation_threshold": null,
+  "segmentation_threshold_basis": ""
+}

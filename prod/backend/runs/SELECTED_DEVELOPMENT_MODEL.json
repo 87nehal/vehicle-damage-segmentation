@@ -1,0 +1,165 @@
+{
+  "status": "development_only_not_production_approved",
+  "production_approved": false,
+  "selected_on": "expanded_coco_clean_and_user_asserted_part_hard_negative_candidate",
+  "architecture": "DINOv2 ViT-S/14 shared-backbone role-split dense segmentation",
+  "selection": "development candidate: DINOv2 hard-negative refinement with COCO clean scenes, user clean-car, handle, fuel-cap, and side-view augmentations, plus a 1200-pixel component guard; not production approved",
+  "artifacts": {
+    "checkpoint": {
+      "path": "runs/pilot_cc0_dinov2_parts_hardneg_long/best.pt",
+      "sha256": "f830d168bdda7a77f7caed552426dc2680321b7fe1cecce18d982e7c79806244",
+      "bytes": 98920828
+    },
+    "development_profile": {
+      "path": "runs/pilot_cc0_dinov2_parts_hardneg_long/calibration-fp16-comp1200.json",
+      "sha256": "f1b490d1d9aa3818c82e42f72f38ed3081e28b7b62292bd3587ee4d62da9d9fb",
+      "bytes": 810
+    },
+    "validation_report": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/validation-report-development-mask0550-comp144.json",
+      "sha256": "e8d3158b424411dc8f66ecfe53dbda1a7467cb6905a70345394a36b33866fdfd",
+      "bytes": 6954
+    },
+    "release_audit": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/validation-release-audit-development-mask0550-comp144.json",
+      "sha256": "b615232019d78425dd7e9f177e367ba77b2a9f6742590993a612727f8ec3551d",
+      "bytes": 4900
+    },
+    "synthetic_stress_report": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/validation-robustness-development-mask0550-comp144.json",
+      "sha256": "f88ca954c174d0860da62bfa8f1669c1da3ad686148fe56dbde9d0960fe7f7d9",
+      "bytes": 97788
+    },
+    "latency_benchmark": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/benchmark-rtx3060-fp16-development-mask0550-comp144-direct-final.json",
+      "sha256": "1d34c72936964e0d0361aa58c911c300e4865175da2dfd48fa6dda7de4b61cf6",
+      "bytes": 1839
+    },
+    "direct_final_equivalence": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/DIRECT_FINAL_EQUIVALENCE.json",
+      "sha256": "ead36240352ef8a8a7b41165ae5daa502f0468e0475bccfd3bcf21854ed821d0",
+      "bytes": 1481
+    },
+    "decision_routing_smoke_report": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/decision-routing-smoke.png.json",
+      "sha256": "8f04870ae1ca7ff0e2ea715bd05e82d1c282a0ae5c72a9dbf8ffc4462a4394c1",
+      "bytes": 2441
+    },
+    "decision_routing_smoke_mask": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/decision-routing-smoke.png",
+      "sha256": "5b7402da83143397391d03f38b6daa60f52ab101d59371c4ab0799d84419a3f4",
+      "bytes": 5105
+    },
+    "decision_routing_smoke_review_mask": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/decision-routing-smoke.review.png",
+      "sha256": "797840f92bdf31e69876d76747106bbfa435294ebde39d0a5f657ce1211302e4",
+      "bytes": 7755
+    },
+    "decision_routing_smoke_disagreement_mask": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/decision-routing-smoke.disagreement.png",
+      "sha256": "27b8e2f962e22828d427a5e0dcdc86f3c39f6ede90db4bf5d61a76045dbf78ce",
+      "bytes": 9400
+    },
+    "release_data_collection_plan": {
+      "path": "runs/pilot_cc0_dinov2_4layer_role_split/RELEASE_DATA_COLLECTION_PLAN.json",
+      "sha256": "b28659c28a09babb00c1924af828a37406bfc37e9e2ec9aed59be4d958014f85",
+      "bytes": 4702
+    },
+    "rejected_detail_refiner_experiment": {
+      "path": "runs/pilot_cc0_dinov2_detail_refine/DETAIL_REFINER_EXPERIMENT.json",
+      "sha256": "fc28ed9746bf2a8bf389932228c6f41e32fd407aee12b05b5b3df860cd07184e",
+      "bytes": 5379
+    },
+    "threshold_calibration_diagnostic": {
+      "path": "runs/pilot_cc0_dinov2_4layer_refine/calibration-mask-threshold-sweep-comp24.json",
+      "sha256": "aea5b458fe35e5d5ae4c7a2e045144eeed0336659ce6884181036dc997ddd5f3",
+      "bytes": 8407
+    },
+    "component_filter_validation_diagnostic": {
+      "path": "runs/pilot_cc0_dinov2_4layer_refine/validation-component-filter-mask0550-diagnostic.json",
+      "sha256": "1022902ca7eec033ef16b2714370a98f85c4bd4bc8ed708b937de623c4022111",
+      "bytes": 10206
+    },
+    "component_filter_distance_guard": {
+      "path": "runs/pilot_cc0_dinov2_4layer_refine/validation-distance-component-filter-mask0550.json",
+      "sha256": "ecd13838a09ca8b23b0c393db01d91f2926dccb5b213611621d40ee116075085",
+      "bytes": 6760
+    },
+    "previous_selected_checkpoint": {
+      "path": "runs/pilot_cc0_dinov2_fullscene_soup25/best.pt",
+      "sha256": "b9ab98c544eea4625d9de6d1610dc424baf2db28aae27dfc26eab4bf088d4d84",
+      "bytes": 98904188
+    },
+    "previous_selected_validation_report": {
+      "path": "runs/pilot_cc0_dinov2_fullscene_soup25/validation-report-fp16-recall-rescue-comp24.json",
+      "sha256": "a5bfe517f11f734003f8319607ed9d6b80a49e0c2340a8ac590e81ad2531ff53",
+      "bytes": 6856
+    },
+    "previous_selected_stress_report": {
+      "path": "runs/pilot_cc0_dinov2_fullscene_soup25/validation-robustness-recall-rescue-comp24.json",
+      "sha256": "da29e03e7649cb159fb2c7d10389063b46b9dfbab5a00c26544293e0e74f473f",
+      "bytes": 97645
+    }
+  },
+  "parent_checkpoint_sha256": {
+    "previous_selected_triage": "b9ab98c544eea4625d9de6d1610dc424baf2db28aae27dfc26eab4bf088d4d84",
+    "four_layer_segmentation": "91f903c8035fbd9c9039c86ec3b7139af4a3e73ab3d910ff45153db23f958650"
+  },
+  "previous_selection_metrics": {
+    "damage_cases": 98,
+    "detected_cases": 98,
+    "case_recall": 1.0,
+    "case_recall_wilson_95_lower": 0.9622800098783192,
+    "pixel_precision": 0.5022465793198563,
+    "pixel_recall": 0.7333925636994575,
+    "background_false_positive_rate": 0.061296471756972976,
+    "region_precision": 0.35377358490566035,
+    "region_recall": 0.33407572383073497,
+    "region_true_positive_components": 150,
+    "region_false_positive_components": 274,
+    "region_false_negative_components": 299,
+    "per_class_case_recall": {
+      "dent": 0.7916666666666666,
+      "scratch": 0.6666666666666666,
+      "crack_or_breakage": 0.9615384615384616,
+      "paint_damage": 0.6,
+      "deformation_or_detachment": 0.8367346938775511
+    },
+    "synthetic_stress_conditions": 11,
+    "synthetic_stress_minimum_case_recall": 1.0,
+    "latency_ms_median": 335.0314999988768,
+    "latency_ms_p95": 369.6110000018962,
+    "throughput_images_per_second": 2.98479396714444,
+    "peak_gpu_memory_bytes": 374984192,
+    "release_gates_passed": 4,
+    "release_gates_total": 17
+  },
+  "current_candidate_metrics": {
+    "damage_cases": 98,
+    "detected_cases": 91,
+    "case_recall": 0.9285714285714286,
+    "clean_images": 100,
+    "clean_alerts": 1,
+    "clean_false_alert_rate": 0.01,
+    "supplied_clean_regression_damage_pixels": 0,
+    "component_guard_pixels": 1200,
+    "production_approved": false
+  },
+  "selection_guards": {
+    "clean_binary_strictly_improved": true,
+    "clean_per_class_case_hits_preserved": true,
+    "all_stress_case_hits_preserved": true,
+    "all_stress_per_class_case_hits_preserved": true,
+    "all_stress_pixel_recall_non_decreasing": true,
+    "all_stress_matched_regions_non_decreasing": true,
+    "severe_low_resolution_false_region_delta": 10
+  },
+  "warnings": [
+    "Thresholds, component filter, checkpoint selection, and role split consumed development data.",
+    "The public validation split contains no independently reviewed clean groups.",
+    "Synthetic stress results are diagnostics, not real nuisance-slice evidence.",
+    "Severe low resolution adds 10 false regions relative to the previous selected model.",
+    "Branch-selective direct-final execution is numerically identical to the projected role-split path and measures 335.0 ms versus 333.8 ms median for the previous selection on the RTX 3060 Laptop.",
+    "Fresh first-party calibration and an untouched clean-inclusive test are required."
+  ]
+}

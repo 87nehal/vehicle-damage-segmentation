@@ -4,7 +4,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 pytest-cache-files-*/
-runs/
+/runs/
 data/images/
 data/masks/
 data/exterior/
@@ -13,6 +13,8 @@ data/raw/
 data/hitl_cc0/
 *.pt
 *.pth
+!prod/backend/runs/
+!prod/backend/runs/**/*.pt
 torchinductor_root/
 node_modules/
 .next/
