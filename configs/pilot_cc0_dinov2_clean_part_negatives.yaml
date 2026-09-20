@@ -1,0 +1,45 @@
+seed: 113
+classes:
+  - background
+  - dent
+  - scratch
+  - crack_or_breakage
+  - paint_damage
+  - deformation_or_detachment
+architecture: dinov2
+backbone_name: "vit_small_patch14_dinov2.lvd142m"
+image_size: 392
+augmentation_profile: robust_v3
+batch_size: 2
+epochs: 4
+learning_rate: 0.00001
+backbone_learning_rate_multiplier: 0.0
+weight_decay: 0.0001
+num_workers: 0
+damage_sample_fraction: 0.75
+pretrained_backbone: false
+pretrained_backbone_commercial_use: false
+pretrained_backbone_license_id: ""
+initial_checkpoint: "runs/pilot_cc0_dinov2_hardneg/best.pt"
+initial_checkpoint_commercial_use: true
+initial_checkpoint_license_id: "self-trained-HITL-CC0-DINOv2-pilot"
+backbone_checkpoint: ""
+backbone_checkpoint_commercial_use: false
+backbone_checkpoint_license_id: ""
+loss:
+  focal_gamma: 2.0
+  tversky_alpha: 0.3
+  tversky_beta: 0.7
+  focal_weight: 1.0
+  tversky_weight: 1.0
+  type_weight: 2.0
+  exterior_weight: 0.3
+  hard_negative_weight: 3.0
+  class_weights: [0.1, 1.5, 10.0, 1.0, 12.0, 3.0]
+calibration:
+  target_case_recall: 0.97
+  minimum_damage_coverage: 0.05
+inference:
+  tile_size: 518
+  overlap: 126
+  horizontal_flip_tta: true

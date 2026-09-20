@@ -1,0 +1,23 @@
+{
+  "source_manifest": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_hardneg\\manifest.jsonl",
+  "checkpoint": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_dinov2\\best.pt",
+  "checkpoint_sha256": "1ed94ad2cc0ce1f0a964ae1cf9a7301a76b4e1c67d0d7c8c5e9bfe3a8bac930c",
+  "checkpoint_epoch": 7,
+  "calibration": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_dinov2\\development-profile-fp16-threshold0525.json",
+  "split": "train",
+  "minimum_score": 0.525,
+  "maximum_fraction": 0.1,
+  "guard_radius": 5,
+  "exterior_floor": 0.0,
+  "tile_size": 518,
+  "overlap": 126,
+  "horizontal_flip_tta": true,
+  "mixed_precision": true,
+  "mined_images": 570,
+  "mined_pixels": 27015889,
+  "newly_selected_pixels_before_merge": 12853652,
+  "existing_pixels_before_merge": 17350905,
+  "merge_existing": true,
+  "background_pixels_before_guard": 178922375,
+  "mined_fraction_of_background": 0.15099223336377018
+}

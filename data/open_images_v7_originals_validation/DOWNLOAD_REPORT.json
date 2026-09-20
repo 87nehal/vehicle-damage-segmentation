@@ -1,0 +1,468 @@
+{
+  "status": "original_files_downloaded_but_not_license_or_damage_approved",
+  "training_eligible": false,
+  "commercial_use_approved": false,
+  "inputs": {
+    "metadata": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-images-with-rotation.csv",
+      "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+    },
+    "boxes": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-annotations-bbox.csv",
+      "sha256": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2"
+    },
+    "class_descriptions": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\oidv7-class-descriptions-boxable.csv",
+      "sha256": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9"
+    }
+  },
+  "selection": {
+    "seed": 101,
+    "requested": 200,
+    "max_attempts": 300,
+    "eligible_metadata_rows": 4516,
+    "attempted": 300,
+    "verified_originals": 109,
+    "failures": {
+      "request_failed": 191
+    }
+  },
+  "files": [
+    {
+      "image_id": "e18de920ad6adeb0",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "27a36d80be726d15",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "e05c65afc710a6f6",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "f6aa134ce6284e38",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "dddd6279b633d7ab",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "6d9428d6c12c5450",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "894cacdb385fdb6b",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "955d31c5449d28e5",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "8f625faf9881982e",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "e6bd267623505877",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "26cc58ef4b4d0c0a",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "6d60c9f1e937a105",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "929427105be5a981",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "35ef0e05052d6c63",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "64721b320b9dd2d5",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "e4cfaaaa9ef168b3",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "c278c841987a1f45",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "3bd4f37eb9f0d9d3",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "60c38c1f3c5043cf",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "ad24916b46699da0",
+      "status": "reused_verified"
+    },
+    {
+      "image_id": "a50c1e4bea745d6b",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "b7d7aa74f601fd36",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "fab24cdc059abb14",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "be44a92a7acd06fa",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "76cd8901d20cea99",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "cbf88a6d5ccd80d7",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "59b83c5f8f1dcfa4",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "0e411138af977779",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "3b7fb903a7cd2a32",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "9b4c4914c5568c34",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "68e90a90840f5e01",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "0438dea0e3cd161a",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "b1a50a3824887ee2",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "eddbde8d75ca1b25",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "3804df4f030e11b1",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "ca4198a51b872900",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "1a6fe27dc774b82a",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "755b07d29cebebaa",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "07bf22273e375abf",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "acff676e9dec6052",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "d32dd202ccf68892",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "1dcb492bbd078006",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "f684d6d673e1b149",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "1652b5c7df2b8ed5",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "77622946574eed68",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "393cb7feb10902b5",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "3ddb20972d7ebe74",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "8c5120c5d47734dd",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "bfbf87f0676be455",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "c02762cac9bb6268",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "f93b5cdefb6681d0",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "b9c7b9d3e65b3fbb",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "892e79eb872c1c59",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "b19073acd27ddea3",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "ee43bf067a4e9833",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "00b75a8487446cdd",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "aa4dc2550e3517ea",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "b01dfab1cc7078d7",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "9509cd9ac44bd261",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "1f59e128787f0050",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "74ee6d1b58ae2e70",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "893e43d68e6ddbb8",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "4576f65d70c82690",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "884dc2ff946528c2",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "0d6ca8553971fefd",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "0b7d7b73d9bc03fd",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "d9b9f00bf020629a",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "4ce360b2e5e0fc08",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "9aee80c1dd0fc2a1",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "a582197dff522ef5",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "57d9c9676b31ea78",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "f2fd9ea685b66984",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "bdae914f08bd3269",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "2e3d747a56d0e97d",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "8f5e92debd91b3bb",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "1c481eaee6b2f16b",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "fa1e43422dc6b091",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "731b082c68b8ebf9",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "a6b9ffba175c86f5",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "8563075fa2c954ef",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "5688af831de73279",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "72d9aa6212accc52",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "8407cc89d4ef5ab2",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "cb1562096b6df9b1",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "feaca872da0b0882",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "76220574af6effb7",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "191f3a41c1631139",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "3930eee89c2fc221",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "f3c7866cc691b79d",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "10958c945049f045",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "605aa5228c29712d",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "9851e17333cc5b05",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "7cae57aa3c1e1c4c",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "8de51326114f1e49",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "4e7f4119d1e0c7ca",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "9893ae3d876f9c1c",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "d183d301d6297b8f",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "85a74d88c754f43d",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "45bcab3341d3102a",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "910eb7a8c87d99f2",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "b09813a8742277c7",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "3f5f6c536a4aa67c",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "fde84b9a7147db9a",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "ccc3f0bc6500081c",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "f056600365996903",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "ed399ed4edfe4674",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "a208e144bf2876e1",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "f4360a78d152b01d",
+      "status": "downloaded_verified"
+    },
+    {
+      "image_id": "8b10af6346b47bfc",
+      "status": "downloaded_verified"
+    }
+  ]
+}

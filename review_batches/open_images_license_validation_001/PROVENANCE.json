@@ -1,0 +1,45 @@
+{
+  "status": "quarantined_review_candidates_not_training_data",
+  "training_eligible": false,
+  "commercial_use_approved": false,
+  "damage_labels_present": false,
+  "policy": {
+    "required_image_license": "https://creativecommons.org/licenses/by/2.0/",
+    "allowed_box_sources": [
+      "xclick"
+    ],
+    "requires_original_md5_match": true,
+    "requires_per_image_landing_page_license_review": true,
+    "requires_separate_double_damage_review": true
+  },
+  "inputs": {
+    "metadata": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-images-with-rotation.csv",
+      "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+    },
+    "boxes": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-annotations-bbox.csv",
+      "sha256": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2"
+    },
+    "class_descriptions": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\oidv7-class-descriptions-boxable.csv",
+      "sha256": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9"
+    },
+    "images_dir": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_originals_validation"
+  },
+  "selection": {
+    "seed": 101,
+    "limit": 0,
+    "eligible_before_limit": 109,
+    "selected_candidates": 109,
+    "eligible_car_box_images": 4516,
+    "rejections": {
+      "eligible_box_images_missing_from_metadata": 0,
+      "missing_or_ambiguous_local_image": 4407
+    }
+  },
+  "inventory": {
+    "path": "C:\\Users\\root\\Desktop\\car model\\review_batches\\open_images_license_validation_001\\CANDIDATES.jsonl",
+    "sha256": "5541ae333e48bc088bc9859135199308d23a4acb4a6a724ea4ac8bf3f5aa7bbf"
+  }
+}

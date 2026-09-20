@@ -1,0 +1,355 @@
+{
+  "status": "original_files_downloaded_but_not_license_or_damage_approved",
+  "training_eligible": false,
+  "commercial_use_approved": false,
+  "inputs": {
+    "metadata": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-images-with-rotation.csv",
+      "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+    },
+    "boxes": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-annotations-bbox.csv",
+      "sha256": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2"
+    },
+    "class_descriptions": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\oidv7-class-descriptions-boxable.csv",
+      "sha256": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9"
+    }
+  },
+  "selection": {
+    "seed": 101,
+    "start_offset": 300,
+    "requested": 33,
+    "max_attempts": 80,
+    "delay_seconds": 1.0,
+    "eligible_metadata_rows": 4516,
+    "attempted": 80,
+    "verified_originals": 0,
+    "failures": {
+      "http_429": 80
+    }
+  },
+  "files": [],
+  "rejected_files": [
+    {
+      "image_id": "fd2aa62413df2ac7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "3d88ecd11a613b8f",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "71062923925f0b3d",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "4b165d2a2a0fceae",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "94827c2b339acc8a",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "4d88ac75df711f23",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "6e9535008313da78",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "ef7d022edc6493a3",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "a158e89a4415eb57",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "391fd86971be76e8",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "223db679904fd8a6",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "936bce5d805329da",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "e3144a7ce77d0b67",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "b4cc87af903b8270",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "79a6209e9b93590d",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "f6b73bb2536fdcb7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "bf96475a7122e629",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "d93f6e3c54e1e2fd",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "2ff8fd5d95b7ea73",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "16a1af0cccd211ba",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "6156b886ab339e3c",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "ba94ba331e3ef7da",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "e20a71e5d88d38d7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "8b305eedcf5dae91",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "927228a44e769c99",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "5cbea3c11e549be7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "ec01410963cad56f",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "1310b74bd368544e",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "2c768d96ec2452bd",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "dd372c93febdfb3b",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "789047cf2c1f9523",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "39a036b3e04726f2",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "5d464f7d3725b5d6",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "1313a4add388424c",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "bc862b2cfc1a8efd",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "33c82eb81dcaa202",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "cf493062fb197e53",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "0ee91c4938b6e7ee",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "42f0c31fbb3459c7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "8a7e68869ea3f84e",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "465f70a1a05424ed",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "a3803e3f4bc46191",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "92c4f641f103f806",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "12b7ea40074d3b20",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "8fd4047106292065",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "677d52d8d6b1a832",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "605ecfbb833a8ebd",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "0bb2bc6be4bb2d34",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "b6cce0b8adb946f9",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "b52218cf53a834d7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "a6a19c69c354a604",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "251acac3adef34e6",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "8b8cba7b7f09e54f",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "fa3f43026b555521",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "a774a6f81fea258b",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "362ec8b7c557317d",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "e166bf81ec7cf59e",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "af0af3702109e372",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "068338a53dfabda8",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "a1507d2c3d473635",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "c6ac773ec1a1983a",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "b1aa6e8182e3f22f",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "d8140e3e136880bd",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "58283abbab68f577",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "dfaeaa87808dea82",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "430631b637aa11b7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "56cf28a24726bdc0",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "62082e3b53ac2453",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "3bde2cb018408edc",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "89b8242a7fd0d91b",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "20efffe6aa0537c4",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "1cc0bd59a4221700",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "2c8009fda5f04cb2",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "73f6c8555abe4ac4",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "488722909dd9c0ac",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "62f6cb65fba70dd4",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "9e63fa1af035255e",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "980fd8bbe9c33f12",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "d79c8b5696fde8c9",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "97d8ad15601ebfcb",
+      "reason": "http_429"
+    }
+  ]
+}

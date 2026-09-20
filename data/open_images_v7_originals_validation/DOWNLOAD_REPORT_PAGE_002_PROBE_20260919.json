@@ -1,0 +1,49 @@
+{
+  "status": "original_files_downloaded_but_not_license_or_damage_approved",
+  "training_eligible": false,
+  "commercial_use_approved": false,
+  "inputs": {
+    "metadata": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-images-with-rotation.csv",
+      "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+    },
+    "boxes": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\validation-annotations-bbox.csv",
+      "sha256": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2"
+    },
+    "class_descriptions": {
+      "path": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_source\\oidv7-class-descriptions-boxable.csv",
+      "sha256": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9"
+    }
+  },
+  "selection": {
+    "seed": 101,
+    "start_offset": 300,
+    "requested": 5,
+    "max_attempts": 10,
+    "delay_seconds": 3.0,
+    "max_consecutive_rate_limits": 3,
+    "eligible_metadata_rows": 4516,
+    "attempted": 3,
+    "verified_originals": 0,
+    "failures": {
+      "http_429": 3
+    },
+    "stopped_reason": "consecutive_http_429_circuit_breaker"
+  },
+  "files": [],
+  "rejected_files": [
+    {
+      "image_id": "fd2aa62413df2ac7",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "3d88ecd11a613b8f",
+      "reason": "http_429"
+    },
+    {
+      "image_id": "71062923925f0b3d",
+      "reason": "http_429"
+    }
+  ]
+}

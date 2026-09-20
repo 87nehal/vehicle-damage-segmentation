@@ -1,0 +1,37 @@
+seed: 17
+classes:
+  - background
+  - dent
+  - scratch
+  - crack_or_breakage
+  - paint_damage
+  - deformation_or_detachment
+image_size: 384
+batch_size: 2
+epochs: 18
+learning_rate: 0.0002
+weight_decay: 0.0001
+num_workers: 0
+pretrained_backbone: false
+pretrained_backbone_commercial_use: false
+pretrained_backbone_license_id: ""
+backbone_checkpoint: "runs/pilot_cc0_v2/best.pt"
+backbone_checkpoint_commercial_use: true
+backbone_checkpoint_license_id: "self-trained-HITL-CC0-pilot-v2"
+loss:
+  focal_gamma: 2.0
+  tversky_alpha: 0.3
+  tversky_beta: 0.7
+  focal_weight: 1.0
+  tversky_weight: 1.0
+  type_weight: 1.0
+  exterior_weight: 0.2
+  hard_negative_weight: 3.0
+  class_weights: [0.1, 1.5, 3.0, 1.0, 4.0, 2.5]
+calibration:
+  target_case_recall: 0.97
+  minimum_damage_coverage: 0.05
+inference:
+  tile_size: 768
+  overlap: 192
+  horizontal_flip_tta: true

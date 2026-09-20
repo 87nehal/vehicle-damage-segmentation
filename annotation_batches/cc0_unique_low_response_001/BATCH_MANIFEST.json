@@ -1,0 +1,560 @@
+{
+  "checkpoint": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_dinov2_4layer_role_split\\best.pt",
+  "checkpoint_sha256": "03f64e322347adaa5062b1699566693bc25142f3e28080e514f26a2d178a00d8",
+  "checkpoint_epoch": 3,
+  "calibration": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_dinov2_4layer_role_split\\development-profile-fp16-triage0450-scales1-1p5-mask0550-scale1-comp144.json",
+  "calibration_sha256": "d8d64e305d58769ca68774d3e668c635a31c24289269471b465eb7cfa0fa54b8",
+  "source_manifest": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_combined\\manifest.jsonl",
+  "source_manifest_sha256": "2bd20bb83ab7d0dedd6ba45b6859128d79d8e11acafb5ffb6ee44c2a28a6ce47",
+  "ranking": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_dinov2_4layer_role_split\\review-priority-hitl-combined-unique-auxiliary.json",
+  "ranking_sha256": "5c082bb66a45213262be09a48e9f15e124c14db50cb14e991a61252b68d928ef",
+  "ranking_order": "lowest",
+  "selection_tag": "damage_unverified",
+  "split": "train",
+  "status": "model_preannotations_require_human_correction",
+  "warning": "These masks are model suggestions, not ground truth. Import into CVAT as Segmentation Mask 1.1, correct every image, and independently review the result before training.",
+  "classes": [
+    "background",
+    "dent",
+    "scratch",
+    "crack_or_breakage",
+    "paint_damage",
+    "deformation_or_detachment"
+  ],
+  "palette_rgb": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      128,
+      0,
+      0
+    ],
+    [
+      0,
+      128,
+      0
+    ],
+    [
+      128,
+      128,
+      0
+    ],
+    [
+      0,
+      0,
+      128
+    ],
+    [
+      128,
+      0,
+      128
+    ]
+  ],
+  "images_zip": "C:\\Users\\root\\Desktop\\car model\\annotation_batches\\cc0_unique_low_response_001\\images.zip",
+  "annotations_zip": "C:\\Users\\root\\Desktop\\car model\\annotation_batches\\cc0_unique_low_response_001\\preannotations-segmentation-mask-1.1.zip",
+  "samples": [
+    {
+      "group_id": "hitl_parts_00788",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00788.jpg",
+      "archive_name": "hitl_parts_00788_265a4c797a06.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00788.png",
+      "ranking_rank": 557,
+      "ranking_priority_score": 0.749743505140092,
+      "source_image_sha256": "265a4c797a061b78cb1358f41578635f28e888a8798be3e47f360d9f8bcde6f6",
+      "preannotation_mask_sha256": "2c45ca00eb423b2156456a0622237217b001c90245429c31dbc9da1c476b6094",
+      "preannotation_positive_pixels": 5630
+    },
+    {
+      "group_id": "hitl_parts_00650",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00650.jpg",
+      "archive_name": "hitl_parts_00650_365e08c4c563.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00650.png",
+      "ranking_rank": 556,
+      "ranking_priority_score": 0.8000217848899474,
+      "source_image_sha256": "365e08c4c5635883184c5993100b314f15f14a7fff204debc18b1571d3a65192",
+      "preannotation_mask_sha256": "1b17fe092d950fd433be5ae6a9a4df5bce8086f4e3eafc135dce543aaa30cffb",
+      "preannotation_positive_pixels": 9651
+    },
+    {
+      "group_id": "hitl_parts_00531",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00531.jpg",
+      "archive_name": "hitl_parts_00531_05b81a6208a6.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00531.png",
+      "ranking_rank": 555,
+      "ranking_priority_score": 0.8303165487694579,
+      "source_image_sha256": "05b81a6208a6020188b03d500e53b5252658dd1705ecf7476d95c9a7e9a1bf5f",
+      "preannotation_mask_sha256": "1569b8101071e76ff0b4afaa16e7be71076ecd0e00e0c058fb58c3eda2d75dc9",
+      "preannotation_positive_pixels": 1069
+    },
+    {
+      "group_id": "hitl_parts_00538",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00538.jpg",
+      "archive_name": "hitl_parts_00538_1182a82436ef.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00538.png",
+      "ranking_rank": 554,
+      "ranking_priority_score": 0.849981156882461,
+      "source_image_sha256": "1182a82436ef2cd690fb9b7e65a9cb18e227ac6f8fd1cf8f2a4b02b7bc98f34d",
+      "preannotation_mask_sha256": "31e0e5c274199f82814ec7152d571d24408c9c995f2f2f997ee9b9cdfead78b5",
+      "preannotation_positive_pixels": 9535
+    },
+    {
+      "group_id": "hitl_parts_00843",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00843.jpg",
+      "archive_name": "hitl_parts_00843_3681f7dd56ee.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00843.png",
+      "ranking_rank": 553,
+      "ranking_priority_score": 0.8505805976176709,
+      "source_image_sha256": "3681f7dd56ee5bce2e2d82d06a0fced15f5faae6f16ba72f7c95756eb8718f7f",
+      "preannotation_mask_sha256": "8df8fbc55bd4e6cb2b57e42cb91fbe00846726ad2ae41bebed3b850f777ce1b1",
+      "preannotation_positive_pixels": 9673
+    },
+    {
+      "group_id": "hitl_parts_00778",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00778.jpg",
+      "archive_name": "hitl_parts_00778_caa2550ac254.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00778.png",
+      "ranking_rank": 552,
+      "ranking_priority_score": 0.8924949084017434,
+      "source_image_sha256": "caa2550ac2544d535859a86a9cc7a318e5596091e3c83ad3dd3cd126317155be",
+      "preannotation_mask_sha256": "dacd73aafcf30776e893af84f5788cd95b3ed87385a19043227353e40b8727c2",
+      "preannotation_positive_pixels": 6675
+    },
+    {
+      "group_id": "hitl_parts_00367",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00367.jpg",
+      "archive_name": "hitl_parts_00367_c5f7b96ba40f.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00367.png",
+      "ranking_rank": 551,
+      "ranking_priority_score": 0.8940312016592943,
+      "source_image_sha256": "c5f7b96ba40f92d3f0259e191f69f3dbfffbdf46d691e11017053c4b56a0f9a8",
+      "preannotation_mask_sha256": "96ea65836e487a9441289548e2ce798b6a530eb8c55bb0f2274a00393ff9f544",
+      "preannotation_positive_pixels": 11127
+    },
+    {
+      "group_id": "hitl_parts_00130",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00130.jpg",
+      "archive_name": "hitl_parts_00130_7006e4ca7dd0.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00130.png",
+      "ranking_rank": 550,
+      "ranking_priority_score": 0.9134582286765507,
+      "source_image_sha256": "7006e4ca7dd082e91fbe9e6870a578b9cf9c54b5125e9cb01524681507cbce51",
+      "preannotation_mask_sha256": "2558585caf53cac93e58b59f8809bf52126607e3bd8186b36f1eb849206dc097",
+      "preannotation_positive_pixels": 7416
+    },
+    {
+      "group_id": "hitl_parts_00213",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00213.jpg",
+      "archive_name": "hitl_parts_00213_81e67337cb9e.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00213.png",
+      "ranking_rank": 549,
+      "ranking_priority_score": 0.9221848031744578,
+      "source_image_sha256": "81e67337cb9e2bd08894e3436baf670eb42626c6979c7cdb33513266785900c5",
+      "preannotation_mask_sha256": "c53cefd08c48a5b9c39e747ac16259bff3ff8c7c8e47873fa495cc102ea45747",
+      "preannotation_positive_pixels": 6573
+    },
+    {
+      "group_id": "hitl_parts_00915",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00915.jpg",
+      "archive_name": "hitl_parts_00915_e25dd4f65f69.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00915.png",
+      "ranking_rank": 548,
+      "ranking_priority_score": 0.9457665676546585,
+      "source_image_sha256": "e25dd4f65f698be11b427e6869e4b94618f1ec099aebe642469f9bd07d7c8bd3",
+      "preannotation_mask_sha256": "19ddd225e15c6a443fbe8cfba2f09de5cdfecab4f40987b4064642e456962d7e",
+      "preannotation_positive_pixels": 11480
+    },
+    {
+      "group_id": "hitl_parts_00721",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00721.jpg",
+      "archive_name": "hitl_parts_00721_84c18dd9b104.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00721.png",
+      "ranking_rank": 547,
+      "ranking_priority_score": 0.9707929679365876,
+      "source_image_sha256": "84c18dd9b104c78cb4c1bb9e270f2f14430c5c188260cc6c7fcff35f71b9e53a",
+      "preannotation_mask_sha256": "b3e458ffc4131808f6189d8660f7011f1391c155627023ddbb19123f53296970",
+      "preannotation_positive_pixels": 5734
+    },
+    {
+      "group_id": "hitl_parts_00740",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00740.jpg",
+      "archive_name": "hitl_parts_00740_0b90e1b43464.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00740.png",
+      "ranking_rank": 546,
+      "ranking_priority_score": 0.9759720946178204,
+      "source_image_sha256": "0b90e1b43464ac71707c67103dba1877e386dbc519ef79d095a424bbadba88c3",
+      "preannotation_mask_sha256": "0d5bf376b1f14c07d6d456e814c87c1962b30a233bc6617123ed29255c3ef900",
+      "preannotation_positive_pixels": 16222
+    },
+    {
+      "group_id": "hitl_parts_00439",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00439.jpg",
+      "archive_name": "hitl_parts_00439_56583b050bf9.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00439.png",
+      "ranking_rank": 545,
+      "ranking_priority_score": 1.0036197121690138,
+      "source_image_sha256": "56583b050bf98cdca5703a7725aca345b3eb6d4ffbea578c0e9f67da985ebf7b",
+      "preannotation_mask_sha256": "9625c40aac5d988306bdde30e404f5d0386c77ba489646877bbeecb27e471aee",
+      "preannotation_positive_pixels": 3149
+    },
+    {
+      "group_id": "hitl_parts_00967",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00967.jpg",
+      "archive_name": "hitl_parts_00967_01a83117a5b9.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00967.png",
+      "ranking_rank": 544,
+      "ranking_priority_score": 1.016803922173004,
+      "source_image_sha256": "01a83117a5b9c8f7db8903b49051de1fc74429fcf1a7ca7ffe628049de734b62",
+      "preannotation_mask_sha256": "fd527037e879c7b8006368d1f83b2f740a03c7b93a10014299140d03ef427ce6",
+      "preannotation_positive_pixels": 6876
+    },
+    {
+      "group_id": "hitl_parts_00099",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00099.jpg",
+      "archive_name": "hitl_parts_00099_c4cbd609873e.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00099.png",
+      "ranking_rank": 543,
+      "ranking_priority_score": 1.0333421907773255,
+      "source_image_sha256": "c4cbd609873e8b19825650a3bb368408017781cac76e16d2983f0ee73a2058a9",
+      "preannotation_mask_sha256": "f199d918475f3dbd730cba3264c1ea282fbd6bea54bbf5186d43d2807cae4fa8",
+      "preannotation_positive_pixels": 6424
+    },
+    {
+      "group_id": "hitl_parts_00572",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00572.jpg",
+      "archive_name": "hitl_parts_00572_29218c0505cb.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00572.png",
+      "ranking_rank": 542,
+      "ranking_priority_score": 1.0444064675770397,
+      "source_image_sha256": "29218c0505cb38933a140f3a7ad8da6054961eac6466375f99e03ce8a61c1d28",
+      "preannotation_mask_sha256": "c950575e9790c36731468d9e2256cb5c1faaaddb9b1fa1b372a3302484b1dfd8",
+      "preannotation_positive_pixels": 13408
+    },
+    {
+      "group_id": "hitl_parts_00105",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00105.jpg",
+      "archive_name": "hitl_parts_00105_20d9287e2c01.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00105.png",
+      "ranking_rank": 541,
+      "ranking_priority_score": 1.050340505395311,
+      "source_image_sha256": "20d9287e2c011c7edf0efdbba412b8abac8a67ae1e903a558a5693b9ee3e2d8b",
+      "preannotation_mask_sha256": "7fa4f594a344e7e5a15945002aebb9bc4fc23aa2e4674e1e30c58136f84f5686",
+      "preannotation_positive_pixels": 4428
+    },
+    {
+      "group_id": "hitl_parts_00073",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00073.jpg",
+      "archive_name": "hitl_parts_00073_f7add6b1f303.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00073.png",
+      "ranking_rank": 540,
+      "ranking_priority_score": 1.0635410319930374,
+      "source_image_sha256": "f7add6b1f303dcd7633a7e348fe27a970fca57b48933a90a5bf6311896483949",
+      "preannotation_mask_sha256": "913d2cf7128c4210af580d30155541f32f8917b3a6c2d523ac6c757348bec652",
+      "preannotation_positive_pixels": 7997
+    },
+    {
+      "group_id": "hitl_parts_00785",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00785.jpg",
+      "archive_name": "hitl_parts_00785_331b164a6104.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00785.png",
+      "ranking_rank": 539,
+      "ranking_priority_score": 1.0680229844077629,
+      "source_image_sha256": "331b164a61043287e225b9648c9fdf4083576672ffa39ca94f9d8663b40f4168",
+      "preannotation_mask_sha256": "f3240a939a9385657a9bdcc9547f5aa36b3020f5c9991d6fb3759e8aecf9be7e",
+      "preannotation_positive_pixels": 17681
+    },
+    {
+      "group_id": "hitl_parts_00374",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00374.jpg",
+      "archive_name": "hitl_parts_00374_5a5458acf21e.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00374.png",
+      "ranking_rank": 538,
+      "ranking_priority_score": 1.0840613308282379,
+      "source_image_sha256": "5a5458acf21e4ec1f1a8c54cad8416a0c0703046bdc2a15516678b543b890b93",
+      "preannotation_mask_sha256": "e5a60151a86067a7f162c7a318bd6a76521d5b1ddc52132559b0e6dacad47ade",
+      "preannotation_positive_pixels": 15843
+    },
+    {
+      "group_id": "hitl_parts_00090",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00090.jpg",
+      "archive_name": "hitl_parts_00090_0d269254db55.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00090.png",
+      "ranking_rank": 537,
+      "ranking_priority_score": 1.0860247055530836,
+      "source_image_sha256": "0d269254db55b85c317da72a1b77fa0686f4346b8c8f8f66cd3ecef2c97690af",
+      "preannotation_mask_sha256": "123c11b83604109ae31559672c15b262da35da982b546e122bf1917f14c928aa",
+      "preannotation_positive_pixels": 19132
+    },
+    {
+      "group_id": "hitl_parts_00034",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00034.jpg",
+      "archive_name": "hitl_parts_00034_465d9d4a1c77.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00034.png",
+      "ranking_rank": 536,
+      "ranking_priority_score": 1.090617350675922,
+      "source_image_sha256": "465d9d4a1c7769fd67acec0a7288810beff7b732cc86a4bee72b2eec4547a0cd",
+      "preannotation_mask_sha256": "a53673d4492f19b670e6dc55d26aa73ff4cf911ab05016458770da982e7ebab3",
+      "preannotation_positive_pixels": 14036
+    },
+    {
+      "group_id": "hitl_parts_00354",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00354.jpg",
+      "archive_name": "hitl_parts_00354_f51c0203d5e3.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00354.png",
+      "ranking_rank": 535,
+      "ranking_priority_score": 1.093236422212613,
+      "source_image_sha256": "f51c0203d5e337b6334290afb8129ad6df92a58f0aa92425a85ad92230654bb2",
+      "preannotation_mask_sha256": "abe243dd33f3f12377f6dcacc8900c7e76db5c33e41c308e6e995824ef9b58cb",
+      "preannotation_positive_pixels": 14994
+    },
+    {
+      "group_id": "hitl_parts_00557",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00557.jpg",
+      "archive_name": "hitl_parts_00557_7c01bb55e524.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00557.png",
+      "ranking_rank": 534,
+      "ranking_priority_score": 1.0936954530211858,
+      "source_image_sha256": "7c01bb55e524624acea2794a6e824e3f109325d0bea26f2090d7494bf8a0ecab",
+      "preannotation_mask_sha256": "c91f9b4549a9cd9958b3a29a06fb6d1262f78b65edd399457d4d48a603d179d2",
+      "preannotation_positive_pixels": 10705
+    },
+    {
+      "group_id": "hitl_parts_00593",
+      "source_image": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\images\\hitl_parts_00593.jpg",
+      "archive_name": "hitl_parts_00593_00d56369f396.jpg",
+      "source_split": "train",
+      "source_name": "Humans in the Loop car parts and car damages",
+      "source_license_id": "CC0-1.0-HITL-car-parts-and-car-damages",
+      "source_commercial_use": true,
+      "source_tags": [
+        "public_cc0",
+        "exterior_only",
+        "damage_unverified"
+      ],
+      "source_exterior_mask": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_parts_cc0\\exterior_masks\\hitl_parts_00593.png",
+      "ranking_rank": 533,
+      "ranking_priority_score": 1.096270319374299,
+      "source_image_sha256": "00d56369f3961e2e4255ef58d9006a860dd385ca4547fbc17077a8873f69bb22",
+      "preannotation_mask_sha256": "d8d9bbfe1a58ec03d84159b966e7a6c6d122dd4042ce243a626abfe24f0823de",
+      "preannotation_positive_pixels": 12443
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_manifest": "C:\\Users\\root\\Desktop\\car model\\data\\hitl_combined\\manifest.jsonl",
+  "checkpoint": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_exterior\\best.pt",
+  "checkpoint_sha256": "80e3c36ffdaa6162d3a8b9fafa3f9eed9fdaf68eeab57d23c32b8bf3ba00c87b",
+  "checkpoint_epoch": 7,
+  "calibration": "C:\\Users\\root\\Desktop\\car model\\runs\\pilot_cc0_exterior\\calibration.json",
+  "split": "train",
+  "minimum_score": 0.2453135252,
+  "maximum_fraction": 0.1,
+  "guard_radius": 5,
+  "exterior_floor": 0.0,
+  "tile_size": 768,
+  "overlap": 192,
+  "horizontal_flip_tta": true,
+  "mixed_precision": false,
+  "mined_images": 570,
+  "mined_pixels": 17350905,
+  "background_pixels_before_guard": 178922375,
+  "mined_fraction_of_background": 0.09697448404650341
+}

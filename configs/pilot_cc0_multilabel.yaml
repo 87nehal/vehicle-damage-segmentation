@@ -1,0 +1,47 @@
+seed: 83
+classes:
+  - background
+  - dent
+  - scratch
+  - crack_or_breakage
+  - paint_damage
+  - deformation_or_detachment
+image_size: 384
+batch_size: 2
+epochs: 8
+learning_rate: 0.00001
+weight_decay: 0.0001
+num_workers: 0
+damage_sample_fraction: 0.75
+pretrained_backbone: false
+pretrained_backbone_commercial_use: false
+pretrained_backbone_license_id: ""
+initial_checkpoint: "runs/pilot_cc0_hardneg/best.pt"
+initial_checkpoint_commercial_use: true
+initial_checkpoint_license_id: "self-trained-HITL-CC0-hard-negative-pilot"
+initial_checkpoint_allow_new_heads: true
+backbone_checkpoint: ""
+backbone_checkpoint_commercial_use: false
+backbone_checkpoint_license_id: ""
+case_classifier:
+  enabled: true
+  learning_rate_multiplier: 8.0
+loss:
+  focal_gamma: 2.0
+  tversky_alpha: 0.3
+  tversky_beta: 0.7
+  focal_weight: 1.0
+  tversky_weight: 1.0
+  type_weight: 2.0
+  classification_weight: 2.0
+  classification_pos_weights: [1.0, 1.5, 1.0, 2.0, 1.5]
+  exterior_weight: 0.3
+  hard_negative_weight: 3.0
+  class_weights: [0.1, 1.5, 10.0, 1.0, 12.0, 3.0]
+calibration:
+  target_case_recall: 0.97
+  minimum_damage_coverage: 0.05
+inference:
+  tile_size: 768
+  overlap: 192
+  horizontal_flip_tta: true

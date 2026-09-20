@@ -1,0 +1,1853 @@
+{
+  "status": "capture_quality_screening_not_training_approval",
+  "created_utc": "2026-09-19T19:02:49.477802+00:00",
+  "images_dir": "C:\\Users\\root\\Desktop\\car model\\data\\open_images_v7_originals_validation",
+  "training_eligible": false,
+  "commercial_use_approved": false,
+  "damage_labels_present": false,
+  "warning": "Quality screening does not establish consent, commercial rights, damage labels, reviewer independence, or release-test eligibility.",
+  "summary": {
+    "images": 109,
+    "quality_pass": 24,
+    "manual_quality_review": 76,
+    "recapture_required": 9,
+    "duplicate_content": 0
+  },
+  "records": [
+    {
+      "relative_path": "00b75a8487446cdd.jpg",
+      "sha256": "b82925165ef31f2dd41ce1df96447f36231ca09b16e65355dcf2b6d1abe3d634",
+      "bytes": 334416,
+      "width": 1400,
+      "height": 1050,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0,
+      "clipped_highlight_fraction": 0.06572585034013606,
+      "specular_highlight_fraction": 0.09635102040816326,
+      "sharpness": 0.004686625674366951
+    },
+    {
+      "relative_path": "0438dea0e3cd161a.jpg",
+      "sha256": "55bcf6387e2c333681470c095908e4e6f34aa4d129a71b029233737ce1df0728",
+      "bytes": 48164,
+      "width": 620,
+      "height": 412,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "low_resolution",
+        "underexposed"
+      ],
+      "recapture_reasons": [
+        "low_resolution",
+        "underexposed"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.5139680551205763,
+      "clipped_highlight_fraction": 2.348888192922017e-05,
+      "specular_highlight_fraction": 0.004846539304729095,
+      "sharpness": 0.008289754390716553
+    },
+    {
+      "relative_path": "07bf22273e375abf.jpg",
+      "sha256": "8ef2c0ecb724b26eefa2edd056634aeb2a7cde1c2b489c6d7430639f6fe0e064",
+      "bytes": 439211,
+      "width": 2000,
+      "height": 1333,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0,
+      "clipped_highlight_fraction": 0.044656789197299325,
+      "specular_highlight_fraction": 0.21790097524381094,
+      "sharpness": 0.003463463857769966
+    },
+    {
+      "relative_path": "0b7d7b73d9bc03fd.jpg",
+      "sha256": "1f8a121a80ef7525358be31638448316a4799a7cf66b2c7a434ae03060eeb9fe",
+      "bytes": 4337934,
+      "width": 3264,
+      "height": 2448,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.001586804554338075,
+      "clipped_highlight_fraction": 0.020818440223311547,
+      "specular_highlight_fraction": 0.03428343866141228,
+      "sharpness": 0.003543060040101409
+    },
+    {
+      "relative_path": "0d6ca8553971fefd.jpg",
+      "sha256": "92fa1336922c353e39b36b1db0fd503040c66a03fe873f5696d1c35be0420fd1",
+      "bytes": 1285811,
+      "width": 2736,
+      "height": 1824,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.02927523372576177,
+      "clipped_highlight_fraction": 0.008946663075818201,
+      "specular_highlight_fraction": 0.036842465951061866,
+      "sharpness": 0.0029240341391414404
+    },
+    {
+      "relative_path": "0e411138af977779.jpg",
+      "sha256": "e656b34a9b9cac60abc380615feeb86a54793ef89d92bf70c455a6e2e568b7ab",
+      "bytes": 10156541,
+      "width": 4928,
+      "height": 3264,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.06599394018971225,
+      "clipped_highlight_fraction": 0.0011253347219569647,
+      "specular_highlight_fraction": 0.0033443597609498343,
+      "sharpness": 0.0009231232688762248
+    },
+    {
+      "relative_path": "10958c945049f045.jpg",
+      "sha256": "c6f9d9d00d905bb0529daa74e13dc32b5d270debd9cf1fddb17172560cbea917",
+      "bytes": 6720091,
+      "width": 5312,
+      "height": 2988,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.05636949152029806,
+      "clipped_highlight_fraction": 0.08498275229431783,
+      "specular_highlight_fraction": 0.13199264175174594,
+      "sharpness": 0.009538157843053341
+    },
+    {
+      "relative_path": "1652b5c7df2b8ed5.jpg",
+      "sha256": "a7f41fedf1f24d59ce2efe6d7d6710901f7f4d81b27544290e26e2d1cb6e9539",
+      "bytes": 3008248,
+      "width": 3504,
+      "height": 2336,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.14801247204760118,
+      "clipped_highlight_fraction": 0.0007405919653468443,
+      "specular_highlight_fraction": 0.023045335663351475,
+      "sharpness": 0.0006855644751340151
+    },
+    {
+      "relative_path": "191f3a41c1631139.jpg",
+      "sha256": "957f556ed0de52698284a4ac6378d191df03f25fe9c37b5a6546f6b09fd96dca",
+      "bytes": 7234132,
+      "width": 4044,
+      "height": 2648,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.13621808520175352,
+      "clipped_highlight_fraction": 0.005774004829055615,
+      "specular_highlight_fraction": 0.03996026712208008,
+      "sharpness": 0.0027751459274441004
+    },
+    {
+      "relative_path": "1a6fe27dc774b82a.jpg",
+      "sha256": "fe59da67bc6461c4d492f1af5bbe820c81e9558ff6d2ed522bc5251a6f179f85",
+      "bytes": 601919,
+      "width": 1381,
+      "height": 1846,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.00026438360570597873,
+      "clipped_highlight_fraction": 0.0007743223110735936,
+      "specular_highlight_fraction": 0.0063452065369434905,
+      "sharpness": 0.0037381071597337723
+    },
+    {
+      "relative_path": "1c481eaee6b2f16b.jpg",
+      "sha256": "094337de26d8991b7afc8b66cbaba4e8b5449d795ca6a06e9b36714fe041d530",
+      "bytes": 7054962,
+      "width": 3700,
+      "height": 2617,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0653433372233525,
+      "clipped_highlight_fraction": 2.2617191130756283e-05,
+      "specular_highlight_fraction": 0.004378750167821624,
+      "sharpness": 0.0007810721290297806
+    },
+    {
+      "relative_path": "1dcb492bbd078006.jpg",
+      "sha256": "dda25adeae02a1f32aa217eaf077d155bac5e9fedd97ebf4a34df7ac60a92f99",
+      "bytes": 4901025,
+      "width": 4288,
+      "height": 2848,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0717065130806641,
+      "clipped_highlight_fraction": 0.0018914654693526747,
+      "specular_highlight_fraction": 0.004390109450989435,
+      "sharpness": 0.0004367358051240444
+    },
+    {
+      "relative_path": "1f59e128787f0050.jpg",
+      "sha256": "156acfcfcb243d7c9de262e52b0ff8f7a3711bb8606dbdec9790c7f33134e335",
+      "bytes": 2036950,
+      "width": 2560,
+      "height": 1920,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 7.32421875e-06,
+      "clipped_highlight_fraction": 0.0922210693359375,
+      "specular_highlight_fraction": 0.121788330078125,
+      "sharpness": 0.003695989493280649
+    },
+    {
+      "relative_path": "26cc58ef4b4d0c0a.jpg",
+      "sha256": "fb158fa9dd85fce50a2425989664e995589fefa747f106c66ad9c6854257e259",
+      "bytes": 2760734,
+      "width": 3664,
+      "height": 2748,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.004090608970080662,
+      "clipped_highlight_fraction": 0.058312953287186234,
+      "specular_highlight_fraction": 0.06720022263114739,
+      "sharpness": 0.003916348330676556
+    },
+    {
+      "relative_path": "27a36d80be726d15.jpg",
+      "sha256": "5ad9a88dfd9ddb10458d5ea71e686ad379199b28b5b72a248681f462de65c52c",
+      "bytes": 356958,
+      "width": 2048,
+      "height": 1024,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.07256126403808594,
+      "clipped_highlight_fraction": 0.0016837120056152344,
+      "specular_highlight_fraction": 0.0058040618896484375,
+      "sharpness": 0.003856578841805458
+    },
+    {
+      "relative_path": "2e3d747a56d0e97d.jpg",
+      "sha256": "217148e799dbc24daac9e5a4e9f01c0cb57226553653c7b2560cf851268f4565",
+      "bytes": 131518,
+      "width": 720,
+      "height": 540,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.07252057613168725,
+      "clipped_highlight_fraction": 0.005504115226337448,
+      "specular_highlight_fraction": 0.03881944444444444,
+      "sharpness": 0.00997125543653965
+    },
+    {
+      "relative_path": "35ef0e05052d6c63.jpg",
+      "sha256": "608387fcbf2264d85f6b7ee5c98c8f2525bf82aa8e8937be3370fdc85bcae60f",
+      "bytes": 1203141,
+      "width": 4000,
+      "height": 3000,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.020001083333333333,
+      "clipped_highlight_fraction": 0.01326025,
+      "specular_highlight_fraction": 0.24137566666666666,
+      "sharpness": 0.004603471606969833
+    },
+    {
+      "relative_path": "3804df4f030e11b1.jpg",
+      "sha256": "93f42f5b6078de44ebbaf77e2f3ede44e28867d5ee93ad12828fc68cb287e6ea",
+      "bytes": 4690541,
+      "width": 3264,
+      "height": 2448,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.06715265763168013,
+      "clipped_highlight_fraction": 0.015385834174356017,
+      "specular_highlight_fraction": 0.07468944736799948,
+      "sharpness": 0.005102656316012144
+    },
+    {
+      "relative_path": "3930eee89c2fc221.jpg",
+      "sha256": "65d6e014632a322424f388d3e4ae15b8473c39dd8302f2947dd906c18ce8118f",
+      "bytes": 3641956,
+      "width": 5312,
+      "height": 2988,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.058228269503717685,
+      "clipped_highlight_fraction": 0.0891534889558233,
+      "specular_highlight_fraction": 0.15878921055708778,
+      "sharpness": 0.0007754994439892471
+    },
+    {
+      "relative_path": "393cb7feb10902b5.jpg",
+      "sha256": "9891e312a3000af5ee98c88b0dd9946cf728f047d6cc1e1c5152c5ca436bda29",
+      "bytes": 699803,
+      "width": 1200,
+      "height": 1600,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.02196875,
+      "clipped_highlight_fraction": 0.02720260416666667,
+      "specular_highlight_fraction": 0.06914114583333333,
+      "sharpness": 0.0019597357604652643
+    },
+    {
+      "relative_path": "3b7fb903a7cd2a32.jpg",
+      "sha256": "1f48abbdfb1e4366b458c9a6b00d22daaf39da7d5656d897d0623823b4641c35",
+      "bytes": 1831235,
+      "width": 2592,
+      "height": 1936,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.005827291220283645,
+      "clipped_highlight_fraction": 0.15974095436690133,
+      "specular_highlight_fraction": 0.17088219633200694,
+      "sharpness": 0.0028565265238285065
+    },
+    {
+      "relative_path": "3bd4f37eb9f0d9d3.jpg",
+      "sha256": "4f620427e952059d799400e17784e4eca3c0224e5c90830c4478bc5946449e6e",
+      "bytes": 3841129,
+      "width": 4912,
+      "height": 3264,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.018654982096666026,
+      "clipped_highlight_fraction": 0.008846444980679569,
+      "specular_highlight_fraction": 0.05885515214840008,
+      "sharpness": 0.0017574017401784658
+    },
+    {
+      "relative_path": "3ddb20972d7ebe74.jpg",
+      "sha256": "5d9dff6f37c523ff7c88d2f8382aeec10e263dbaaf8e9f5b840e2371de851857",
+      "bytes": 954580,
+      "width": 1836,
+      "height": 1784,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.023132577644909485,
+      "clipped_highlight_fraction": 0.054715969596607954,
+      "specular_highlight_fraction": 0.15969260773567026,
+      "sharpness": 0.01074057724326849
+    },
+    {
+      "relative_path": "3f5f6c536a4aa67c.jpg",
+      "sha256": "f47748412d776fdd8c4b26b2f5a4475fae86a0e11ebb896cfec13ee2aa1c9cf4",
+      "bytes": 311516,
+      "width": 2816,
+      "height": 2112,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.028498037459108127,
+      "clipped_highlight_fraction": 0.1829418676287018,
+      "specular_highlight_fraction": 0.21971159795755854,
+      "sharpness": 0.003345259465277195
+    },
+    {
+      "relative_path": "4576f65d70c82690.jpg",
+      "sha256": "610dc65836eb69a12a805a1466d611b5b9522e7074420e6360868a4d4e838948",
+      "bytes": 1701721,
+      "width": 1169,
+      "height": 3888,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0,
+      "clipped_highlight_fraction": 0.0008778738818658978,
+      "specular_highlight_fraction": 0.029539906078495565,
+      "sharpness": 0.0011315119918435812
+    },
+    {
+      "relative_path": "45bcab3341d3102a.jpg",
+      "sha256": "cc7a9249e50e6b9d2baf99f916d81243da0ec08daafa3316f5b9859263e27a05",
+      "bytes": 607385,
+      "width": 1024,
+      "height": 769,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.013814105169050715,
+      "clipped_highlight_fraction": 0.0020610675390117035,
+      "specular_highlight_fraction": 0.01897883818270481,
+      "sharpness": 0.008373315446078777
+    },
+    {
+      "relative_path": "4ce360b2e5e0fc08.jpg",
+      "sha256": "9af49a259d6dd8f3ac46ecb2de53cd167cc47d45f1bfa217b0dd8e58f78844ed",
+      "bytes": 224625,
+      "width": 1024,
+      "height": 683,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.10156821925329429,
+      "clipped_highlight_fraction": 0.0006763017020497804,
+      "specular_highlight_fraction": 0.015616421120058566,
+      "sharpness": 0.006499425508081913
+    },
+    {
+      "relative_path": "4e7f4119d1e0c7ca.jpg",
+      "sha256": "a385c64514a6ce4d32383221e7fd75868476ca0bd43e27a6dc543a1f7f688eab",
+      "bytes": 34005,
+      "width": 640,
+      "height": 400,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "low_resolution",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "low_resolution"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.03804296875,
+      "clipped_highlight_fraction": 0.005578125,
+      "specular_highlight_fraction": 0.0316796875,
+      "sharpness": 0.004162980709224939
+    },
+    {
+      "relative_path": "5688af831de73279.jpg",
+      "sha256": "ef434db9b396b52ad6ea702a6f93d432ada41757c05c9e8afd7059cd4f6c1898",
+      "bytes": 116455,
+      "width": 1024,
+      "height": 768,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "excessive_glare_or_overexposure",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "excessive_glare_or_overexposure"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.04965972900390625,
+      "clipped_highlight_fraction": 0.20718765258789062,
+      "specular_highlight_fraction": 0.2640647888183594,
+      "sharpness": 0.004983485676348209
+    },
+    {
+      "relative_path": "57d9c9676b31ea78.jpg",
+      "sha256": "34757bbc8dcbb2040d8a4725ad3562f8bc384d46fe5c33ed765b00ca44ef8801",
+      "bytes": 1891595,
+      "width": 3008,
+      "height": 2000,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.01781781914893617,
+      "clipped_highlight_fraction": 0.028803690159574468,
+      "specular_highlight_fraction": 0.03533261303191489,
+      "sharpness": 0.002878358820453286
+    },
+    {
+      "relative_path": "59b83c5f8f1dcfa4.jpg",
+      "sha256": "b0a8ea3fbc126ab7bb8685cf8be0c00f9a3f2ace01eba0a0cb05ab1e918249a6",
+      "bytes": 265306,
+      "width": 1102,
+      "height": 1469,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0006208156714878202,
+      "clipped_highlight_fraction": 0.08661027230643215,
+      "specular_highlight_fraction": 0.11569594981091376,
+      "sharpness": 0.0025692940689623356
+    },
+    {
+      "relative_path": "605aa5228c29712d.jpg",
+      "sha256": "ac6883f5c8f654c1dcbf23931ed069b8f725874468078296c865792061f58b37",
+      "bytes": 895408,
+      "width": 1600,
+      "height": 1200,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0058625,
+      "clipped_highlight_fraction": 0.0028119791666666666,
+      "specular_highlight_fraction": 0.012535416666666667,
+      "sharpness": 0.007283185143023729
+    },
+    {
+      "relative_path": "60c38c1f3c5043cf.jpg",
+      "sha256": "2f5cf43ef99819f35607043a6dc9f9be3eaf56760265dcc8210ea48c039f38c2",
+      "bytes": 686480,
+      "width": 1600,
+      "height": 1200,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.006015104166666667,
+      "clipped_highlight_fraction": 0.060983854166666664,
+      "specular_highlight_fraction": 0.077703125,
+      "sharpness": 0.0030051874928176403
+    },
+    {
+      "relative_path": "64721b320b9dd2d5.jpg",
+      "sha256": "87911cecc01cb3e3bc31254165e05440f1ccb1d708141a21b401e78ac12db5bc",
+      "bytes": 120048,
+      "width": 612,
+      "height": 612,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.015512196163868598,
+      "clipped_highlight_fraction": 0.02736661113247042,
+      "specular_highlight_fraction": 0.055574244948524074,
+      "sharpness": 0.0115691302344203
+    },
+    {
+      "relative_path": "68e90a90840f5e01.jpg",
+      "sha256": "962155f8de48baba99c2eb1450c72a422a557f601f20d3870d06897da36f9353",
+      "bytes": 11511857,
+      "width": 5184,
+      "height": 3456,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.07256842858724852,
+      "clipped_highlight_fraction": 0.0,
+      "specular_highlight_fraction": 0.21627331782978967,
+      "sharpness": 0.0008273760904558003
+    },
+    {
+      "relative_path": "6d60c9f1e937a105.jpg",
+      "sha256": "0b050bb0db59bc99b8c6b24ea9f85236c30ca9419f15e9f7079f22af8f407d21",
+      "bytes": 2150615,
+      "width": 3504,
+      "height": 2336,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.05875428082191781,
+      "clipped_highlight_fraction": 0.012172609972164884,
+      "specular_highlight_fraction": 0.07700238377275286,
+      "sharpness": 0.002799971029162407
+    },
+    {
+      "relative_path": "6d9428d6c12c5450.jpg",
+      "sha256": "32a7425002644a918b71e748d10703f66924567799efef0bdc88b3c8b6960554",
+      "bytes": 877328,
+      "width": 3264,
+      "height": 2448,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 7.509131103421761e-06,
+      "clipped_highlight_fraction": 0.06400508017749583,
+      "specular_highlight_fraction": 0.12470977208285275,
+      "sharpness": 0.0014988465700298548
+    },
+    {
+      "relative_path": "72d9aa6212accc52.jpg",
+      "sha256": "fb61115cbbeebe91929818044aa979b85a007b9e3fd827282ba96c677ee3cc28",
+      "bytes": 5510952,
+      "width": 3072,
+      "height": 2304,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.1722871285897714,
+      "clipped_highlight_fraction": 0.029444517912688078,
+      "specular_highlight_fraction": 0.06848045631691262,
+      "sharpness": 0.0012765596620738506
+    },
+    {
+      "relative_path": "731b082c68b8ebf9.jpg",
+      "sha256": "46431448423473dff8bedf3c2124fafcfe35e4a2170fb59ce4bdcc8929701534",
+      "bytes": 1011628,
+      "width": 2048,
+      "height": 1536,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0006443659464518229,
+      "clipped_highlight_fraction": 0.11110877990722656,
+      "specular_highlight_fraction": 0.20210933685302734,
+      "sharpness": 0.0014543842989951372
+    },
+    {
+      "relative_path": "74ee6d1b58ae2e70.jpg",
+      "sha256": "2647f540432d69f725dec04f4dfd29adfd2220b2a80eeeb4a04482d0a04790ce",
+      "bytes": 1865283,
+      "width": 3008,
+      "height": 2000,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0,
+      "clipped_highlight_fraction": 0.006738031914893617,
+      "specular_highlight_fraction": 0.020259807180851064,
+      "sharpness": 0.0010200400138273835
+    },
+    {
+      "relative_path": "755b07d29cebebaa.jpg",
+      "sha256": "155faa699859a9c9361b90a40438c06eb9bf4c78518ed8ea28e70817a208320d",
+      "bytes": 194891,
+      "width": 800,
+      "height": 600,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.03745833333333334,
+      "clipped_highlight_fraction": 0.002725,
+      "specular_highlight_fraction": 0.0177875,
+      "sharpness": 0.013066215440630913
+    },
+    {
+      "relative_path": "76220574af6effb7.jpg",
+      "sha256": "91e0eefb27b2f45529e59c711779148a9303e00d462be1611251bb95aabb8342",
+      "bytes": 1365204,
+      "width": 3648,
+      "height": 2048,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.011850992838541666,
+      "clipped_highlight_fraction": 6.692451343201754e-07,
+      "specular_highlight_fraction": 0.0001484385707922149,
+      "sharpness": 0.0006437977426685393
+    },
+    {
+      "relative_path": "76cd8901d20cea99.jpg",
+      "sha256": "7fe5605b3bd482d09e7fe6bfe9e2f33d06942723bc5ef02155efb0df26c79558",
+      "bytes": 995910,
+      "width": 3192,
+      "height": 3369,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0047289119206445915,
+      "clipped_highlight_fraction": 0.007667394964109591,
+      "specular_highlight_fraction": 0.036349500197510695,
+      "sharpness": 0.0006737356306985021
+    },
+    {
+      "relative_path": "77622946574eed68.jpg",
+      "sha256": "6b88fb50f91801817713c2a824e45454c7cb413678bb68c4f7c86c00756d4ea0",
+      "bytes": 4532676,
+      "width": 4272,
+      "height": 2848,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 2.2849335100786937e-05,
+      "clipped_highlight_fraction": 0.02256971841728738,
+      "specular_highlight_fraction": 0.13761168228969406,
+      "sharpness": 0.0007219482795335352
+    },
+    {
+      "relative_path": "7cae57aa3c1e1c4c.jpg",
+      "sha256": "216d8bd20cad8de391b2a0eaf646202f444267a06606a1782c95c169d7ffffb7",
+      "bytes": 947680,
+      "width": 1501,
+      "height": 1325,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.031795658240418335,
+      "clipped_highlight_fraction": 0.008063555114200595,
+      "specular_highlight_fraction": 0.020229532512915916,
+      "sharpness": 0.004072786308825016
+    },
+    {
+      "relative_path": "8407cc89d4ef5ab2.jpg",
+      "sha256": "b7315bd08b880a8ef9e27955b475af819dcbb06586cc1187866b439b77a4b1f7",
+      "bytes": 14610126,
+      "width": 5184,
+      "height": 3456,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.033644576349594196,
+      "clipped_highlight_fraction": 0.002761568715706447,
+      "specular_highlight_fraction": 0.053955078125,
+      "sharpness": 0.002523133298382163
+    },
+    {
+      "relative_path": "8563075fa2c954ef.jpg",
+      "sha256": "b52d344dc0da86d4246f7f9e4a98213a2077fcb04f4ea92b55873d499317763f",
+      "bytes": 1268358,
+      "width": 1500,
+      "height": 1069,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.016431555971312753,
+      "clipped_highlight_fraction": 0.0752304334268787,
+      "specular_highlight_fraction": 0.12940255690676644,
+      "sharpness": 0.008044623769819736
+    },
+    {
+      "relative_path": "85a74d88c754f43d.jpg",
+      "sha256": "73009d31c94f1f7315929130b570c56ecea81d1d53f615e001ea781848ddcd89",
+      "bytes": 93294,
+      "width": 800,
+      "height": 533,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0625375234521576,
+      "clipped_highlight_fraction": 0.01251641651031895,
+      "specular_highlight_fraction": 0.037532833020637896,
+      "sharpness": 0.00975649245083332
+    },
+    {
+      "relative_path": "884dc2ff946528c2.jpg",
+      "sha256": "84c4e72a114ca7e4b5e91344f891cdee82103b42bbc8bd3fca909b679dd8ee7d",
+      "bytes": 7182369,
+      "width": 4752,
+      "height": 3168,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 5.041736812570146e-05,
+      "clipped_highlight_fraction": 0.022238509888446757,
+      "specular_highlight_fraction": 0.10202841227935924,
+      "sharpness": 0.0013599838130176067
+    },
+    {
+      "relative_path": "892e79eb872c1c59.jpg",
+      "sha256": "58359bd5ebdd619aa7acd3a11cf132de87baf107f1b654c0f632b4753ca019df",
+      "bytes": 1078107,
+      "width": 2560,
+      "height": 1920,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0005251057942708333,
+      "clipped_highlight_fraction": 0.18004007975260417,
+      "specular_highlight_fraction": 0.25321512858072914,
+      "sharpness": 0.007183590438216925
+    },
+    {
+      "relative_path": "893e43d68e6ddbb8.jpg",
+      "sha256": "143cb9518639ab40d922e2c7eef5396c7158f2eef6e917bfca84eb9833826223",
+      "bytes": 2608000,
+      "width": 3008,
+      "height": 2000,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.055641289893617024,
+      "clipped_highlight_fraction": 0.002159242021276596,
+      "specular_highlight_fraction": 0.002717752659574468,
+      "sharpness": 0.0004903106018900871
+    },
+    {
+      "relative_path": "894cacdb385fdb6b.jpg",
+      "sha256": "f1e0ddee29abc28e072cb48f128f45bd82bab4e005cc22db9f32cd6cb2eef1e9",
+      "bytes": 3462244,
+      "width": 3264,
+      "height": 2448,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "excessive_glare_or_overexposure",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "excessive_glare_or_overexposure"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.07803288799179803,
+      "clipped_highlight_fraction": 0.23654113401896706,
+      "specular_highlight_fraction": 0.2995969348728053,
+      "sharpness": 0.002640804974362254
+    },
+    {
+      "relative_path": "8b10af6346b47bfc.jpg",
+      "sha256": "0ad5d68e7e705a8ea9d2612e8a69e6ebe12af0820779a9ef51d49ccf003199f2",
+      "bytes": 979699,
+      "width": 2896,
+      "height": 1936,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.07445900015981005,
+      "clipped_highlight_fraction": 0.00984401397196475,
+      "specular_highlight_fraction": 0.0733820658874024,
+      "sharpness": 0.004764477256685495
+    },
+    {
+      "relative_path": "8c5120c5d47734dd.jpg",
+      "sha256": "c0d64fbe786fbc75e33b562fb286a60b258be797dd2709d7674211907bd798a7",
+      "bytes": 5124791,
+      "width": 3200,
+      "height": 2368,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.10478476034628378,
+      "clipped_highlight_fraction": 8.657094594594594e-05,
+      "specular_highlight_fraction": 0.0026397540118243243,
+      "sharpness": 0.00401555048301816
+    },
+    {
+      "relative_path": "8de51326114f1e49.jpg",
+      "sha256": "500f1c6c027fa192475a7413317c230082191bdf102d2b85df8b267f32b08964",
+      "bytes": 13808480,
+      "width": 5862,
+      "height": 3898,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.2653614806357756,
+      "clipped_highlight_fraction": 0.0,
+      "specular_highlight_fraction": 0.0,
+      "sharpness": 0.0006263263057917356
+    },
+    {
+      "relative_path": "8f5e92debd91b3bb.jpg",
+      "sha256": "bd0e9318b39887041aa79a79293b4bfccb15c6baf3bb54004707da5530e59de8",
+      "bytes": 112316,
+      "width": 768,
+      "height": 665,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.06834273182957394,
+      "clipped_highlight_fraction": 0.02507048872180451,
+      "specular_highlight_fraction": 0.03217614348370927,
+      "sharpness": 0.0037652538157999516
+    },
+    {
+      "relative_path": "8f625faf9881982e.jpg",
+      "sha256": "dfb90b35be1e7d611468966ab1949cf902017da681222a24d71d487605c5f8b8",
+      "bytes": 1968517,
+      "width": 2592,
+      "height": 1944,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.013970256693593456,
+      "clipped_highlight_fraction": 0.0013852372605801962,
+      "specular_highlight_fraction": 0.003882038116648885,
+      "sharpness": 0.0005187274655327201
+    },
+    {
+      "relative_path": "910eb7a8c87d99f2.jpg",
+      "sha256": "e205e3b978a27b463503b9740a2684a0b031425930907af1c63de60542bd5059",
+      "bytes": 6787611,
+      "width": 4752,
+      "height": 3168,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0008264728514097201,
+      "clipped_highlight_fraction": 0.0034226019666360576,
+      "specular_highlight_fraction": 0.16163462805666087,
+      "sharpness": 0.0011731707490980625
+    },
+    {
+      "relative_path": "929427105be5a981.jpg",
+      "sha256": "69cbc3c4ff5f766ef199f629b0ebb45b1b9dafcc85f3b417b1e517fae406d787",
+      "bytes": 648950,
+      "width": 1600,
+      "height": 1200,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0021255208333333334,
+      "clipped_highlight_fraction": 0.052918229166666664,
+      "specular_highlight_fraction": 0.07901302083333334,
+      "sharpness": 0.005237868521362543
+    },
+    {
+      "relative_path": "9509cd9ac44bd261.jpg",
+      "sha256": "0b808fb3442f5a864d268d7ca6b527f7e589c25fed9cf08a7df565499688bcb4",
+      "bytes": 1135843,
+      "width": 2717,
+      "height": 2182,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.14568927623102934,
+      "clipped_highlight_fraction": 0.018098525527730988,
+      "specular_highlight_fraction": 0.03044162649063995,
+      "sharpness": 0.001981999957934022
+    },
+    {
+      "relative_path": "955d31c5449d28e5.jpg",
+      "sha256": "889b1fee7dab5cd3e094e7fe86587949d5bd9b1a1465a15588291689931553f9",
+      "bytes": 3179086,
+      "width": 4000,
+      "height": 3000,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.07555858333333333,
+      "clipped_highlight_fraction": 0.0005898333333333334,
+      "specular_highlight_fraction": 0.012294916666666666,
+      "sharpness": 0.0016490962589159608
+    },
+    {
+      "relative_path": "9851e17333cc5b05.jpg",
+      "sha256": "b46f398ac4aa88da21457eb2413f41599fe4e83fab4dffe9eaedd18351d00c75",
+      "bytes": 381070,
+      "width": 836,
+      "height": 539,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.017332291768381993,
+      "clipped_highlight_fraction": 0.0015002086088894018,
+      "specular_highlight_fraction": 0.03753628463129489,
+      "sharpness": 0.004693337716162205
+    },
+    {
+      "relative_path": "9893ae3d876f9c1c.jpg",
+      "sha256": "faa0909600bff7bbaddf20faa4cb98d939eab2f7455b1901c036bfbbcddb04af",
+      "bytes": 10139248,
+      "width": 5184,
+      "height": 3456,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.05340925023934042,
+      "clipped_highlight_fraction": 0.016751764242541153,
+      "specular_highlight_fraction": 0.14723856524348422,
+      "sharpness": 0.0007447751704603434
+    },
+    {
+      "relative_path": "9aee80c1dd0fc2a1.jpg",
+      "sha256": "73876764cdfad48411f1acdd24e4e7defc768526d8c26d76cf33bb0eddda9878",
+      "bytes": 2135986,
+      "width": 2560,
+      "height": 1920,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 9.1552734375e-06,
+      "clipped_highlight_fraction": 0.03447611490885417,
+      "specular_highlight_fraction": 0.04777140299479166,
+      "sharpness": 0.0015064207836985588
+    },
+    {
+      "relative_path": "9b4c4914c5568c34.jpg",
+      "sha256": "ab658f90dcb181dba36689b627ca0feff2ead26a3b9252565f945d777038f3fd",
+      "bytes": 36080,
+      "width": 400,
+      "height": 300,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "low_resolution",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "low_resolution"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.21544166666666667,
+      "clipped_highlight_fraction": 0.026966666666666667,
+      "specular_highlight_fraction": 0.055108333333333336,
+      "sharpness": 0.03197304159402847
+    },
+    {
+      "relative_path": "a208e144bf2876e1.jpg",
+      "sha256": "d95e63b841bfa24f608b1e6bef4a096b5d61657f045f38a2a2b873571ec086b8",
+      "bytes": 3078743,
+      "width": 3264,
+      "height": 2448,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0,
+      "clipped_highlight_fraction": 0.00040536792739971807,
+      "specular_highlight_fraction": 0.007780961649365628,
+      "sharpness": 0.00528644910082221
+    },
+    {
+      "relative_path": "a50c1e4bea745d6b.jpg",
+      "sha256": "7355dac153d03a0cd4178f860d4ded9fa3f50c31993e05f8f7adf1acc4099ef0",
+      "bytes": 117839,
+      "width": 800,
+      "height": 598,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.06947533444816054,
+      "clipped_highlight_fraction": 0.06612040133779264,
+      "specular_highlight_fraction": 0.09519648829431439,
+      "sharpness": 0.008850670419633389
+    },
+    {
+      "relative_path": "a582197dff522ef5.jpg",
+      "sha256": "0b51bc41947eac45c865a8f43ef4a812ced039d0fe43e759f4356f6f51e2f886",
+      "bytes": 583794,
+      "width": 3373,
+      "height": 2186,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.005775236262131143,
+      "clipped_highlight_fraction": 0.0016232722640830296,
+      "specular_highlight_fraction": 0.008784711702017719,
+      "sharpness": 0.00047806865768507123
+    },
+    {
+      "relative_path": "a6b9ffba175c86f5.jpg",
+      "sha256": "19819b9e756f5bd7c270deeecd7d746e91b1a785ac6210901f6f219f041f53ef",
+      "bytes": 1135981,
+      "width": 2048,
+      "height": 1536,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.02842553456624349,
+      "clipped_highlight_fraction": 0.051862080891927086,
+      "specular_highlight_fraction": 0.08494981129964192,
+      "sharpness": 0.005104929208755493
+    },
+    {
+      "relative_path": "aa4dc2550e3517ea.jpg",
+      "sha256": "69dbc5f038f88aed181d64538795f42f604ec6783a22450ffaa0d8235ce37240",
+      "bytes": 852459,
+      "width": 2592,
+      "height": 1944,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.020317937750850987,
+      "clipped_highlight_fraction": 0.06270679329878576,
+      "specular_highlight_fraction": 0.07555615886805873,
+      "sharpness": 0.0008109575719572604
+    },
+    {
+      "relative_path": "acff676e9dec6052.jpg",
+      "sha256": "bd1e651cf4398ba850cf52a5f0049da998fbe4a081ef51e5e746edebafd8d41d",
+      "bytes": 15864,
+      "width": 355,
+      "height": 120,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "low_resolution",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "low_resolution"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.0386150234741784,
+      "clipped_highlight_fraction": 0.010352112676056338,
+      "specular_highlight_fraction": 0.03016431924882629,
+      "sharpness": 0.009858038276433945
+    },
+    {
+      "relative_path": "ad24916b46699da0.jpg",
+      "sha256": "1f8dfca3efdb37c4c3f7776c31190606eae34549d2e366192361b296bc49eaf6",
+      "bytes": 2205387,
+      "width": 3072,
+      "height": 2304,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.02582196836118345,
+      "clipped_highlight_fraction": 0.0013858653880931713,
+      "specular_highlight_fraction": 0.01863027501989294,
+      "sharpness": 0.002929933834820986
+    },
+    {
+      "relative_path": "b01dfab1cc7078d7.jpg",
+      "sha256": "eec79d85d9d7eb761a9db5d20a0bb021a58c07458b2e5378254df3f42024d1f4",
+      "bytes": 1627753,
+      "width": 5184,
+      "height": 3456,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.005370200688728852,
+      "clipped_highlight_fraction": 0.020031531760831046,
+      "specular_highlight_fraction": 0.037127850205046865,
+      "sharpness": 0.0012531154789030552
+    },
+    {
+      "relative_path": "b09813a8742277c7.jpg",
+      "sha256": "9a03ff1900d0a236eb3fcb030ec35b6759ab74c89bcd4b93462b4e5844b4a80e",
+      "bytes": 4659960,
+      "width": 3656,
+      "height": 2751,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.07826465729191771,
+      "clipped_highlight_fraction": 0.0042436329100935645,
+      "specular_highlight_fraction": 0.005063406423922234,
+      "sharpness": 0.0005821370868943632
+    },
+    {
+      "relative_path": "b19073acd27ddea3.jpg",
+      "sha256": "75ee60a51f78eaf87dc0972ee6b79e8833ed37d86e3c27957c3c5754d4cb810d",
+      "bytes": 292115,
+      "width": 1600,
+      "height": 1200,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.043741145833333335,
+      "clipped_highlight_fraction": 0.0020359375,
+      "specular_highlight_fraction": 0.007756770833333333,
+      "sharpness": 0.0023439908400177956
+    },
+    {
+      "relative_path": "b1a50a3824887ee2.jpg",
+      "sha256": "31bb5efb960056b9366ad090d0479c457af6e2fffdc6cf66f39ed51947f2d69a",
+      "bytes": 5986446,
+      "width": 4256,
+      "height": 2832,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.28262310304362603,
+      "clipped_highlight_fraction": 0.006075752808929103,
+      "specular_highlight_fraction": 0.0764588576844654,
+      "sharpness": 0.005042945500463247
+    },
+    {
+      "relative_path": "b7d7aa74f601fd36.jpg",
+      "sha256": "8bda9eb2bf999a75e55cde35685c93d015acc70aa926355df2bc7b34a459dbfb",
+      "bytes": 650440,
+      "width": 1624,
+      "height": 1192,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.028987895493767978,
+      "clipped_highlight_fraction": 1.1881343604324396e-05,
+      "specular_highlight_fraction": 0.0014572726220782226,
+      "sharpness": 0.007861127145588398
+    },
+    {
+      "relative_path": "b9c7b9d3e65b3fbb.jpg",
+      "sha256": "cf21cb55d2fee6197b56161feabcc28405159ae5b11303f50a0d28e4c27631cd",
+      "bytes": 13227615,
+      "width": 5662,
+      "height": 3775,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.015699691916131946,
+      "clipped_highlight_fraction": 0.017374526587146562,
+      "specular_highlight_fraction": 0.04918847855226314,
+      "sharpness": 0.0011427529389038682
+    },
+    {
+      "relative_path": "bdae914f08bd3269.jpg",
+      "sha256": "f5312aeb402a4c10199ea546351e50f90fbd2bb51d036ab8f37d13b624b9e8bb",
+      "bytes": 3065634,
+      "width": 2866,
+      "height": 1514,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0008845103297347575,
+      "clipped_highlight_fraction": 0.00651214392582466,
+      "specular_highlight_fraction": 0.013843577643782478,
+      "sharpness": 0.006029835902154446
+    },
+    {
+      "relative_path": "be44a92a7acd06fa.jpg",
+      "sha256": "78060a715c20256c91194092261c1d6c59bf2b909d13c8a58c5ea275268b0e77",
+      "bytes": 1931705,
+      "width": 2592,
+      "height": 1936,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.10632425103305786,
+      "clipped_highlight_fraction": 0.03377027057188042,
+      "specular_highlight_fraction": 0.03889032369146005,
+      "sharpness": 0.0035563039127737284
+    },
+    {
+      "relative_path": "bfbf87f0676be455.jpg",
+      "sha256": "595efb9a9effe099f1e13a42c2cf2b9ea030defbbc20d507b70e89f4c04bd5e4",
+      "bytes": 3935451,
+      "width": 3556,
+      "height": 2362,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.020034236300479374,
+      "clipped_highlight_fraction": 2.654992004068924e-05,
+      "specular_highlight_fraction": 0.024355086964679796,
+      "sharpness": 0.0009510999079793692
+    },
+    {
+      "relative_path": "c02762cac9bb6268.jpg",
+      "sha256": "75d433eb1ab66ea98daddc3c0efc445de08248a88cdd95e5d300ab42db2c4874",
+      "bytes": 946705,
+      "width": 3067,
+      "height": 2028,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.08457676648216138,
+      "clipped_highlight_fraction": 0.0021648341542500203,
+      "specular_highlight_fraction": 0.008756283887331516,
+      "sharpness": 0.0015954554546624422
+    },
+    {
+      "relative_path": "c278c841987a1f45.jpg",
+      "sha256": "cf08dfa8750db0859349d811f47248db659f2d7770e3985a651c09425b81d847",
+      "bytes": 3403942,
+      "width": 3456,
+      "height": 2304,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.03098312817483282,
+      "clipped_highlight_fraction": 0.0037547923900462963,
+      "specular_highlight_fraction": 0.04801042972768776,
+      "sharpness": 0.0027213043067604303
+    },
+    {
+      "relative_path": "ca4198a51b872900.jpg",
+      "sha256": "705e356189bc718624ef7252936ab99085c7491336ba629b15a300607c6dcd01",
+      "bytes": 1129123,
+      "width": 3000,
+      "height": 2000,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.029551833333333333,
+      "clipped_highlight_fraction": 0.0598315,
+      "specular_highlight_fraction": 0.07610683333333333,
+      "sharpness": 0.0030606533400714397
+    },
+    {
+      "relative_path": "cb1562096b6df9b1.jpg",
+      "sha256": "2f0a9a1f7feef3f5d0554e83f2255865107cecde2f72eb9150df38bd912264ab",
+      "bytes": 211089,
+      "width": 1365,
+      "height": 1024,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.039040321657509154,
+      "clipped_highlight_fraction": 0.009325635302197802,
+      "specular_highlight_fraction": 0.022787889194139193,
+      "sharpness": 0.005405667703598738
+    },
+    {
+      "relative_path": "cbf88a6d5ccd80d7.jpg",
+      "sha256": "d77d575ea27d104a675e5a4686448d093ffcb37dc82c832a1cc5a288b3379d2e",
+      "bytes": 1021322,
+      "width": 4060,
+      "height": 3060,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.04325903924788306,
+      "clipped_highlight_fraction": 0.0035005956405550725,
+      "specular_highlight_fraction": 0.014252068643549373,
+      "sharpness": 0.0006802404532209039
+    },
+    {
+      "relative_path": "ccc3f0bc6500081c.jpg",
+      "sha256": "1495f705e70a00688c026ff1ad8695cadb10651073ee7a724c10362069a1e2d8",
+      "bytes": 1104840,
+      "width": 3056,
+      "height": 2292,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.08110157799036942,
+      "clipped_highlight_fraction": 0.043977943998245665,
+      "specular_highlight_fraction": 0.053999856089471235,
+      "sharpness": 0.0010926499962806702
+    },
+    {
+      "relative_path": "d183d301d6297b8f.jpg",
+      "sha256": "23be228bbf33f9ddcaf28d189fb0517cb6f3ff7d79702f7cbe35231aa36414f2",
+      "bytes": 117345,
+      "width": 1024,
+      "height": 765,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0100656147875817,
+      "clipped_highlight_fraction": 0.1118859783496732,
+      "specular_highlight_fraction": 0.18444010416666667,
+      "sharpness": 0.0035920357331633568
+    },
+    {
+      "relative_path": "d32dd202ccf68892.jpg",
+      "sha256": "cd9ccba7f14b272bcef12dcd1c1a72ca76dc1f09e760379a98fb6759a10c6196",
+      "bytes": 115384,
+      "width": 640,
+      "height": 425,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "low_resolution",
+        "excessive_glare_or_overexposure",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "low_resolution",
+        "excessive_glare_or_overexposure"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.001025735294117647,
+      "clipped_highlight_fraction": 0.2379044117647059,
+      "specular_highlight_fraction": 0.2677205882352941,
+      "sharpness": 0.007614478934556246
+    },
+    {
+      "relative_path": "d9b9f00bf020629a.jpg",
+      "sha256": "be25976a42c0701325e4099dcee4c45653a12e24f21418489fac2125b95b873d",
+      "bytes": 3676793,
+      "width": 3648,
+      "height": 2736,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.01271845664050477,
+      "clipped_highlight_fraction": 0.0017177761426592799,
+      "specular_highlight_fraction": 0.015504069361085462,
+      "sharpness": 0.001383886206895113
+    },
+    {
+      "relative_path": "dddd6279b633d7ab.jpg",
+      "sha256": "819f562a2109ebddf0ea5630584f9e6683d14dfe8dcba3860e6570b4f3cd853b",
+      "bytes": 3957678,
+      "width": 4896,
+      "height": 3264,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.09914756343713955,
+      "clipped_highlight_fraction": 0.0009397051815007049,
+      "specular_highlight_fraction": 0.008573988469979496,
+      "sharpness": 0.0010288249468430877
+    },
+    {
+      "relative_path": "e05c65afc710a6f6.jpg",
+      "sha256": "30edcce349cbc3899d57570aaff42fad65441a6003a769f32ecf4c0c32bdb2ce",
+      "bytes": 1854981,
+      "width": 2988,
+      "height": 1665,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.014491801037985776,
+      "clipped_highlight_fraction": 0.00012160755132642683,
+      "specular_highlight_fraction": 0.0010164783257152735,
+      "sharpness": 0.0050528282299637794
+    },
+    {
+      "relative_path": "e18de920ad6adeb0.jpg",
+      "sha256": "f4bfdad4b12345cef981f30edca7b2eb93a2964f8405a8decc1195dae689579c",
+      "bytes": 3589393,
+      "width": 3241,
+      "height": 1833,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.05610972211771807,
+      "clipped_highlight_fraction": 0.016815376771261152,
+      "specular_highlight_fraction": 0.15637495785466926,
+      "sharpness": 0.0017701738979667425
+    },
+    {
+      "relative_path": "e4cfaaaa9ef168b3.jpg",
+      "sha256": "4f7f67a8055e3457657eac8010c022e851df4c7c9e3ef63050a410f1bf1a36b3",
+      "bytes": 341018,
+      "width": 936,
+      "height": 619,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.13815362522955416,
+      "clipped_highlight_fraction": 0.019947047208759647,
+      "specular_highlight_fraction": 0.025385581928392915,
+      "sharpness": 0.010110773146152496
+    },
+    {
+      "relative_path": "e6bd267623505877.jpg",
+      "sha256": "ce7f60abfc42c4574410730d899219f1ae70102d6c0f2cf8453170840bc62273",
+      "bytes": 438332,
+      "width": 1280,
+      "height": 960,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.01149658203125,
+      "clipped_highlight_fraction": 0.054443359375,
+      "specular_highlight_fraction": 0.057880045572916664,
+      "sharpness": 0.0044258045963943005
+    },
+    {
+      "relative_path": "ed399ed4edfe4674.jpg",
+      "sha256": "7253a6a03d3c02fa3f8aa99bfe191c96d41a7259af2427e2d4f40294be387536",
+      "bytes": 461504,
+      "width": 1000,
+      "height": 604,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.17005298013245032,
+      "clipped_highlight_fraction": 0.002380794701986755,
+      "specular_highlight_fraction": 0.02378476821192053,
+      "sharpness": 0.006998877041041851
+    },
+    {
+      "relative_path": "eddbde8d75ca1b25.jpg",
+      "sha256": "180618d681e604ad88fed072bb270d7ea16f3012b8c723513a5ec90bfb6fb813",
+      "bytes": 2584894,
+      "width": 3466,
+      "height": 1748,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.10125032846045467,
+      "clipped_highlight_fraction": 0.01778473064922272,
+      "specular_highlight_fraction": 0.05554959521787987,
+      "sharpness": 0.00791051797568798
+    },
+    {
+      "relative_path": "ee43bf067a4e9833.jpg",
+      "sha256": "22512f7c636703499d9696c9acc4da9cce04bef2aea5a7aeda257853af85e5a3",
+      "bytes": 96869,
+      "width": 768,
+      "height": 512,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.021288553873697918,
+      "clipped_highlight_fraction": 0.011792500813802084,
+      "specular_highlight_fraction": 0.03769683837890625,
+      "sharpness": 0.02616536244750023
+    },
+    {
+      "relative_path": "f056600365996903.jpg",
+      "sha256": "14cb47682f44ed5b210a98593dd1a6e07e5308ff85b75e4b9365c1d89a35ee2c",
+      "bytes": 9726500,
+      "width": 4956,
+      "height": 3380,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.040154543413995825,
+      "clipped_highlight_fraction": 0.0024081144843856707,
+      "specular_highlight_fraction": 0.004341220491807193,
+      "sharpness": 0.0012380160624161363
+    },
+    {
+      "relative_path": "f2fd9ea685b66984.jpg",
+      "sha256": "7894f47f59006d2a09075608dac7876022eaebe38efcb85c97c379671fdf068a",
+      "bytes": 442750,
+      "width": 2048,
+      "height": 1536,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0286709467569987,
+      "clipped_highlight_fraction": 0.18459383646647134,
+      "specular_highlight_fraction": 0.20471318562825522,
+      "sharpness": 0.004656217992305756
+    },
+    {
+      "relative_path": "f3c7866cc691b79d.jpg",
+      "sha256": "ee498501646f5edf9bab3fbba6b08b579f4a555528a2bd0ca83a059c7f86a562",
+      "bytes": 629733,
+      "width": 1024,
+      "height": 681,
+      "disposition": "quality_pass",
+      "review_reasons": [],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.13156060710352424,
+      "clipped_highlight_fraction": 0.0055266841042584435,
+      "specular_highlight_fraction": 0.01098023357195301,
+      "sharpness": 0.005197472404688597
+    },
+    {
+      "relative_path": "f4360a78d152b01d.jpg",
+      "sha256": "adceaf9dc19a99d39655e67914d2ae47f2dbeb301a89b69af57ec0d2247484bc",
+      "bytes": 661875,
+      "width": 1780,
+      "height": 1208,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.00787353969789419,
+      "clipped_highlight_fraction": 0.003336836818215641,
+      "specular_highlight_fraction": 0.06361475928268473,
+      "sharpness": 0.004541182424873114
+    },
+    {
+      "relative_path": "f684d6d673e1b149.jpg",
+      "sha256": "ec730ef261fab4079586942da2297cf162e6dffa4784cbdf3569d9c66a60d1ca",
+      "bytes": 3568691,
+      "width": 5242,
+      "height": 3278,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.006651874764742183,
+      "clipped_highlight_fraction": 0.007121808437459772,
+      "specular_highlight_fraction": 0.0617827473643559,
+      "sharpness": 0.0006995417061261833
+    },
+    {
+      "relative_path": "f6aa134ce6284e38.jpg",
+      "sha256": "e47f703e9423e61ab5f372f10727ee84d65181141a067ca43796291d33d934dd",
+      "bytes": 3516003,
+      "width": 4032,
+      "height": 3024,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.001643023142899135,
+      "clipped_highlight_fraction": 0.030779885256571764,
+      "specular_highlight_fraction": 0.1433390678802385,
+      "sharpness": 0.005330629646778107
+    },
+    {
+      "relative_path": "f93b5cdefb6681d0.jpg",
+      "sha256": "8cc17363961e0199ed912a2f9a700439b85071d420b16c522db8d919f4a6fa6a",
+      "bytes": 1943447,
+      "width": 2592,
+      "height": 1944,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.0028196921201036427,
+      "clipped_highlight_fraction": 0.01672544994411421,
+      "specular_highlight_fraction": 0.07023271985977747,
+      "sharpness": 0.0009574181749485433
+    },
+    {
+      "relative_path": "fa1e43422dc6b091.jpg",
+      "sha256": "ec0431ec15a1335447999fda9a888c6960b6218792dcf977a241aee6158e763f",
+      "bytes": 89666,
+      "width": 400,
+      "height": 267,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "low_resolution",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "low_resolution"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.08623595505617977,
+      "clipped_highlight_fraction": 0.11141385767790263,
+      "specular_highlight_fraction": 0.20371722846441948,
+      "sharpness": 0.06901472806930542
+    },
+    {
+      "relative_path": "fab24cdc059abb14.jpg",
+      "sha256": "37af9116d58929b4f263966fb997c2c801adf2ad6a74b9e386c0c4bddcaec05f",
+      "bytes": 594958,
+      "width": 2592,
+      "height": 1944,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.16278383471777677,
+      "clipped_highlight_fraction": 0.06282209743179393,
+      "specular_highlight_fraction": 0.09999329211756337,
+      "sharpness": 0.0030557853169739246
+    },
+    {
+      "relative_path": "fde84b9a7147db9a.jpg",
+      "sha256": "bd81a18ffb48e2a0c9380325780d3e3fa52ff0d514b1162c7bdc0437d21a188b",
+      "bytes": 1476582,
+      "width": 1936,
+      "height": 2592,
+      "disposition": "manual_quality_review",
+      "review_reasons": [
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [],
+      "duplicate_of": null,
+      "dark_fraction": 0.12417000656820733,
+      "clipped_highlight_fraction": 0.14279055549178654,
+      "specular_highlight_fraction": 0.16932025431078462,
+      "sharpness": 0.000689222477376461
+    },
+    {
+      "relative_path": "feaca872da0b0882.jpg",
+      "sha256": "4d3a2f493b2214b4023c8b7a662ed052c9d2eb50ec3d3666140a13e4f8f217b0",
+      "bytes": 69425,
+      "width": 640,
+      "height": 640,
+      "disposition": "recapture_required",
+      "review_reasons": [
+        "excessive_glare_or_overexposure",
+        "possible_specular_glare"
+      ],
+      "recapture_reasons": [
+        "excessive_glare_or_overexposure"
+      ],
+      "duplicate_of": null,
+      "dark_fraction": 0.0067822265625,
+      "clipped_highlight_fraction": 0.25132080078125,
+      "specular_highlight_fraction": 0.25873291015625,
+      "sharpness": 0.0038018813356757164
+    }
+  ]
+}

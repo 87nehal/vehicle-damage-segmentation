@@ -1,0 +1,93 @@
+{
+  "status": "official_metadata_and_quarantined_originals_not_training_data",
+  "acquired_date": "2026-09-19",
+  "training_eligible": false,
+  "commercial_use_approved": false,
+  "open_images_release": "V7",
+  "source_subset_name": "validation",
+  "source_subset_usage": "candidate pool only; not assigned as this project's validation or test split",
+  "official_description_url": "https://storage.googleapis.com/openimages/web/factsfigures_v7.html",
+  "official_download_url": "https://storage.googleapis.com/openimages/web/download_v7.html",
+  "license_warning": "Open Images lists images as CC BY 2.0 but requires users to verify each image's license status.",
+  "official_files": [
+    {
+      "path": "validation-annotations-bbox.csv",
+      "url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+      "bytes": 25105048,
+      "sha256": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2"
+    },
+    {
+      "path": "oidv7-class-descriptions-boxable.csv",
+      "url": "https://storage.googleapis.com/openimages/v7/oidv7-class-descriptions-boxable.csv",
+      "bytes": 12064,
+      "sha256": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9"
+    },
+    {
+      "path": "validation-images-with-rotation.csv",
+      "url": "https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv",
+      "bytes": 15245485,
+      "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+    }
+  ],
+  "quarantined_originals": {
+    "directory": "../open_images_v7_originals_validation",
+    "verified_images": 109,
+    "total_image_bytes": 273967770,
+    "acquisition_status": "paused_after_source_host_http_429_rate_limit_reconfirmed_2026-09-19",
+    "acquisition_reports": [
+      {
+        "path": "../open_images_v7_originals_validation/DOWNLOAD_REPORT_PAGE_001.json",
+        "bytes": 11179,
+        "sha256": "0042eb101df139e8176824e45bb849fe4cd29def8dd7addf5cf4df7d7706c899",
+        "attempted_candidates": 300,
+        "verified_originals": 109
+      },
+      {
+        "path": "../open_images_v7_originals_validation/DOWNLOAD_REPORT_PAGE_002_THROTTLED.json",
+        "bytes": 18770,
+        "sha256": "6256b2ba972b2cf7c8504135d35773c566a91a11450a54f610d670b0fba1db9a",
+        "attempted_candidates": 200,
+        "verified_originals": 0,
+        "diagnostic_status": "pre-status-diagnostics throttled run"
+      },
+      {
+        "path": "../open_images_v7_originals_validation/DOWNLOAD_REPORT_PAGE_002_RETRY.json",
+        "bytes": 7748,
+        "sha256": "0a779b794168d565a8e2e38c2a686e6fa49d70eaf472dc6b2c6e2c81072321d2",
+        "attempted_candidates": 80,
+        "verified_originals": 0,
+        "diagnostic_status": "all attempts explicitly returned HTTP 429"
+      },
+      {
+        "path": "../open_images_v7_originals_validation/DOWNLOAD_REPORT_PAGE_002_PROBE_20260919.json",
+        "bytes": 1533,
+        "sha256": "899c9160fc7283828a017b490ef5aaba54c1eb962498f07a91bbf10f34d61020",
+        "attempted_candidates": 3,
+        "verified_originals": 0,
+        "diagnostic_status": "bounded retry stopped by the three-consecutive-HTTP-429 circuit breaker"
+      }
+    ]
+  },
+  "license_review_batch": {
+    "directory": "../../review_batches/open_images_license_validation_001",
+    "candidate_count": 109,
+    "status": "awaiting_qualified_per_image_rights_review",
+    "inventory_sha256": "5541ae333e48bc088bc9859135199308d23a4acb4a6a724ea4ac8bf3f5aa7bbf",
+    "provenance_sha256": "6181678cc60200de10bf73d7c475ddd50d4de4f31fcd63dc56e537ac13b784aa",
+    "attribution_sha256": "22b8d16f9b277502ad078ccc13addd7724d41515988c62d76fc9548b7f0f5e12",
+    "review_template_sha256": "eaeb594001cda8533c3d335a5745549194922d372c78f7317b9448100730bbb4",
+    "review_html_sha256": "446143c15ec8a0440647adb9f82b3f0d0995e6b269b7b757aa27860f00e66207",
+    "capture_quality_audit": {
+      "status": "screening_only_not_training_or_license_approval",
+      "json_sha256": "b5ca5ddfda9d00bcc18993cf9f50afbd102c24491814fd04e5ac5daad3490d29",
+      "json_bytes": 65526,
+      "csv_sha256": "d0322794fbca3bfb4fd0b0a0b6ddac6174558eb74ae0cb258a51fe13d137bde7",
+      "csv_bytes": 25205,
+      "images": 109,
+      "quality_pass": 24,
+      "manual_quality_review": 76,
+      "recapture_required": 9,
+      "duplicate_content": 0
+    }
+  }
+}

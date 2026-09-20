@@ -1,0 +1,11 @@
+{
+  "dataset": "Car Parts and Car Damages",
+  "publisher": "Humans in the Loop",
+  "license": "CC0 1.0",
+  "source_url": "https://humansintheloop.org/resources/datasets/car-parts-and-car-damages-dataset/",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/humansintheloop/car-parts-and-car-damages",
+  "archive_bytes": 3103430533,
+  "parts_root": "Car damages dataset",
+  "prepared_images": 998,
+  "damage_labels": "not reviewed; excluded from damage loss"
+}
